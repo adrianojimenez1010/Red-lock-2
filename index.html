@@ -1,4 +1,4 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><meta name="theme-color" content="#03091b"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="apple-touch-icon.png"><title>RED LOCK ULTIMATE V36 V28 — Fondo sin negro</title>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><meta name="theme-color" content="#03091b"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="apple-touch-icon.png"><title>RED LOCK ULTIMATE V46 — Personalizador corregido</title>
 <style>
 *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#030611;color:#fff;font-family:system-ui,Arial,sans-serif;overflow:hidden;touch-action:none}button,input,select{font:inherit}button{cursor:pointer;color:white}.hidden{display:none!important}
 #app{position:fixed;inset:0;display:flex;flex-direction:column;background:radial-gradient(ellipse at 25% 50%,#370d29 0,transparent 48%),radial-gradient(ellipse at 70% 45%,#072e79 0,transparent 48%),#040917}.bar{display:flex;align-items:center;gap:12px;justify-content:space-between;padding:7px 14px;border-bottom:1px solid #309cf5;background:#040b1be9;flex-shrink:0}.bar h1{font-size:clamp(14px,2vw,22px);margin:0;font-weight:1000}.bar small{color:#a5c3e9}.bar button,.pill{border:1px solid #427dca;background:#0b2249;border-radius:7px;padding:8px 12px}.bar button:focus-visible,.tile:focus-visible,.option:focus-visible{outline:3px solid #ffcf54}
@@ -237,7 +237,7 @@ body:has(#home:not(.hidden)) #app>.bar{display:none}
 #dashboard .v16-play button{background:linear-gradient(135deg,#113d86,#0b1733)!important;text-align:center!important;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:clamp(11px,1.4vw,19px)!important}
 #dashboard .v16-play button:nth-child(even){background:linear-gradient(135deg,#981f43,#220b27)!important}
 #dashboard .v16-play b{font-size:clamp(7px,.75vw,11px)}
-#dashboard .v16-actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px;flex:0 0 clamp(42px,10vh,68px)}
+#dashboard .v16-actions{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:3px;flex:0 0 clamp(42px,10vh,68px)}
 #dashboard .v16-actions button{font-size:clamp(7px,.7vw,10px)!important;text-align:center!important;padding:3px!important;line-height:1.15}
 #dashboard .v11-aside{min-width:0;min-height:0;overflow-y:auto;padding:3px!important;gap:4px!important}
 #dashboard .v11-aside h3{font-size:clamp(9px,1vw,13px)!important;margin:2px}
@@ -706,6 +706,161 @@ html,body,#app,#home{background:#06102c!important}
 #dashboard .v34-shortcuts button:hover{background:#153569!important;}
 @media(max-width:800px){#dashboard .v34-shortcuts button b{font-size:7px!important;}#dashboard .v34-shortcuts button{font-size:12px!important;}}
 </style>
+<style id="v38-responsive">
+/* Menú un poco más compacto y siempre dentro de la ventana horizontal. */
+#dashboard.v11-lobby{width:min(96vw,171dvh)!important;height:min(94dvh,54vw)!important;max-width:100vw!important;max-height:100dvh!important;margin:auto!important;overflow:hidden!important}
+#home{display:grid!important;place-items:center!important}
+#dashboard .v34-shortcuts{height:21%!important;grid-auto-rows:minmax(0,1fr)!important}
+#dashboard .v34-shortcuts button b{font-size:clamp(7px,.8vw,12px)!important;white-space:normal!important;line-height:1.02!important}
+body.v18-creator #page{background:radial-gradient(ellipse at 36% 76%,#154b92 0%,#08183b 42%,#01050e 90%)!important}
+body.v18-creator #page .creator-character{background:linear-gradient(135deg,transparent 0%,#2a89e644 54%,transparent 75%),radial-gradient(ellipse at 50% 90%,#146ab0,#030922 70%)!important;box-shadow:inset 0 -12px 35px #237bde40!important}
+body.v18-creator #page .create-grid{background:linear-gradient(160deg,#0a1b41e9,#030b23f2)!important;border:1px solid #39b5f0!important}
+body.v18-creator #page .create-grid .v38-kit-grid,body.v18-creator #page .create-grid .v38-face-thumbs{grid-column:1/-1!important}
+.v38-kit-grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:4px;padding:4px}
+.v38-kit-pick{padding:3px!important;min-width:0!important;height:44px!important;background:#06122e!important;border:1px solid #3f719b!important;border-radius:7px!important;cursor:pointer}
+.v38-kit-pick.chosen{outline:2px solid #83f2ff!important}
+.v38-kit-shirt{display:grid;place-items:center;margin:auto;background:var(--kit);border-left:5px solid var(--stripe);border-right:5px solid var(--stripe);width:70%;height:32px;color:#090e19;text-shadow:0 1px #fff8;font-weight:900;clip-path:polygon(12% 0,88% 0,100% 24%,88% 43%,88% 100%,12% 100%,12% 43%,0 24%)}
+.v38-face-thumbs{border:1px solid #3988d2;border-radius:7px;background:#0a2146;padding:5px;color:#e6f9ff;text-align:center;font-size:11px}
+.v38-thumb{display:flex;align-items:center;justify-content:center;gap:12px}.v38-face-crop{width:78px;height:85px;overflow:hidden;border-radius:7px;border:1px solid #6bc9ff;background:#020719}.v38-face-crop img{width:160px;height:256px;max-width:none;transform:translate(-41px,-11px);display:block}
+</style><style id="v39-improvements">
+body.v18-creator .v13-preview-box{position:relative;isolation:isolate;background:radial-gradient(ellipse at 50% 75%,#164c9f 0%,#061635 45%,#020917 85%)!important}
+body.v18-creator .v13-preview-box::before{content:"RED\A LOCK";white-space:pre;position:absolute;top:23%;left:5%;font-size:clamp(50px,7vw,130px);font-weight:1000;font-style:italic;line-height:.82;letter-spacing:-.07em;color:rgba(32,126,255,.25);transform:skew(-10deg);z-index:-1;pointer-events:none;text-shadow:0 0 34px rgba(0,111,255,.24)}
+.v39-style-picker{grid-column:1/-1;border:1px solid #2686e6;border-radius:10px;padding:10px;background:#06152e}
+.v39-style-picker h4{margin:0 0 7px;color:#eaf6ff}.v39-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px}.v39-tabs button{background:#091d40;border:1px solid #357dcd;color:white;border-radius:7px;padding:8px 3px;cursor:pointer;font-size:12px}.v39-tabs button.selected{background:#1260ac;box-shadow:0 0 8px #188fff}
+.v39-choices{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:5px;margin-top:9px;max-height:220px;overflow-y:auto}.v39-choice{min-width:0;color:#c7e7ff;background:#071c39;border:1px solid #377dc0;border-radius:6px;padding:3px;cursor:pointer}.v39-choice img{width:100%;height:76px;object-fit:cover;object-position:center 12%;background:#071126;border-radius:4px}.v39-choice span{display:block;font-size:9px}.v39-choice.selected{border:2px solid #ff4279}
+@media(max-width:760px){.v39-choices{grid-template-columns:repeat(4,minmax(0,1fr))}.v39-tabs button{font-size:10px}}
+</style>
+<style id="v42-stadium-game-background">
+/* Estadio neón integrado en el JUEGO, nunca una captura de pantalla */
+body.v18-creator #page{background:radial-gradient(ellipse at 50% 35%,#102957 0%,#03071b 86%)!important}
+body.v18-creator #page .creator-character.v13-preview-box{
+ background:linear-gradient(180deg,rgba(0,6,29,.05),rgba(0,3,18,.18)),url('estadio-personalizador.svg') center center/cover no-repeat!important;
+ border:2px solid #287af5!important;box-shadow:inset 0 0 55px #07193eaa,0 0 22px #1c5fff4d!important;
+ isolation:isolate;position:relative;
+}
+body.v18-creator #page .creator-character.v13-preview-box::before{content:none!important;display:none!important}
+body.v18-creator #page .creator-character.v13-preview-box::after{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;background:linear-gradient(90deg,#02091b38,transparent 32%,transparent 68%,#02091b38)}
+body.v18-creator #page .creator-character.v13-preview-box>*{position:relative;z-index:1}
+body.v18-creator #page #createPreview{filter:drop-shadow(0 7px 8px #000c) drop-shadow(0 0 7px #1d6bde55)!important}
+body.v18-creator #page .create-grid{border:1px solid #267df3!important;background:linear-gradient(145deg,#061633ec,#02091bf5)!important;box-shadow:inset 0 0 22px #0954ab40!important}
+</style><style id="v43-user-reference-finish">
+/* Fondo estadio RGB inspirado por la captura de referencia: renderizado nativamente, no foto fija */
+body.v18-creator #page .creator-character.v13-preview-box{background-image:linear-gradient(180deg,#00091d27,#02041434),url('estadio-personalizador.svg')!important;background-size:cover!important;background-position:center!important}
+body.v18-creator #page .create-grid{background:linear-gradient(150deg,#081636f8,#030817f8)!important}
+body.v18-creator #page .v39-tabs{grid-template-columns:repeat(5,minmax(0,1fr))!important}
+body.v18-creator #page .v39-tabs button{font-size:clamp(9px,1vw,13px)!important;padding:7px 2px!important;min-width:0!important}
+body.v18-creator #page .v39-choices{max-height:min(26vh,230px)!important;grid-template-columns:repeat(5,minmax(0,1fr))!important}
+body.v18-creator #page .v39-choice img{height:clamp(55px,8vh,88px)!important;object-position:center 7%!important}
+body.v18-creator #page #createPreview{filter:drop-shadow(0 10px 9px #000c) drop-shadow(0 0 12px #3d89e855)!important}
+</style>
+<style id="v45-portrait-interface">
+/* Estilo de la referencia: cuadrícula de retratos grandes, selección luminosa roja. */
+body.v18-creator #page .v39-style-picker{background:linear-gradient(160deg,#04122c,#071e40)!important;border:1px solid #1b77da!important;padding:8px!important;box-shadow:inset 0 0 25px #04549b30}
+body.v18-creator #page .v39-style-picker h4{color:#c1e8ff!important;font-weight:900!important;font-size:clamp(11px,1vw,15px)!important}
+body.v18-creator #page .v39-tabs{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:4px!important}
+body.v18-creator #page .v39-tabs button{border:1px solid #235f9e!important;border-radius:5px!important;background:#071934!important;min-height:32px!important;color:#c2dcff!important}
+body.v18-creator #page .v39-tabs button.selected{background:linear-gradient(135deg,#bb0a39,#3c0c24)!important;border-color:#fa4f77!important;box-shadow:0 0 12px #f927645c!important;color:#fff!important}
+body.v18-creator #page .v45-pick-heading{margin-top:8px;padding:7px 9px;background:#091d3b;border:1px solid #286ac4;border-radius:5px;color:#7dd1ff;text-align:center;font-weight:900;letter-spacing:.05em;font-size:clamp(10px,1vw,14px)}
+body.v18-creator #page .v39-choices{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:5px!important;max-height:clamp(175px,31vh,310px)!important;overflow-y:auto!important;overflow-x:hidden!important;padding:6px!important;margin-top:0!important;scrollbar-color:#319aff #06152f}
+body.v18-creator #page .v39-choice{position:relative!important;aspect-ratio: .93!important;display:flex!important;align-items:center!important;justify-content:center!important;flex-direction:column!important;background:linear-gradient(165deg,#092447,#041126)!important;border:1px solid #176fb7!important;border-radius:6px!important;padding:2px!important;min-width:0!important;overflow:hidden!important}
+body.v18-creator #page .v39-choice img{width:100%!important;height:calc(100% - 13px)!important;object-fit:contain!important;object-position:center center!important;background:transparent!important;display:block!important;min-height:0!important}
+body.v18-creator #page .v39-choice span{font-size:clamp(8px,.8vw,11px)!important;line-height:12px!important;color:#96cffb!important}
+body.v18-creator #page .v39-choice.selected{border:2px solid #ff366d!important;box-shadow:inset 0 0 6px #ff2c6966,0 0 10px #ff245d99!important}
+body.v18-creator #page .v39-choice.selected span{color:#fff!important;font-weight:900}
+@media(max-width:720px){body.v18-creator #page .v39-choices{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:3px!important;padding:3px!important}body.v18-creator #page .v39-choice{aspect-ratio:.82!important}}
+</style>
+<style id="v46-fixes">
+/* Mantener todas las opciones dentro del área visible en horizontal, con scroll real */
+body.v18-creator #page{overflow:hidden!important;min-height:0!important;}
+body.v18-creator #page .pageBody{box-sizing:border-box!important;height:100dvh!important;max-height:100dvh!important;min-height:0!important;width:min(100vw,177.778dvh)!important;padding:clamp(34px,4.5dvh,48px) clamp(9px,1.8vw,22px) clamp(8px,1.5dvh,16px)!important;overflow:hidden!important;}
+body.v18-creator #page .creator-panel{display:flex!important;flex-direction:column!important;min-height:0!important;overflow:hidden!important;gap:clamp(4px,.7dvh,10px)!important;}
+body.v18-creator #page .creator-panel>h3{flex:0 0 auto!important;margin:0!important;padding:0 135px!important;line-height:1.15!important;max-height:40px!important;font-size:clamp(13px,1.5vw,24px)!important;}
+body.v18-creator #page .creator-wrap{flex:1 1 auto!important;min-height:0!important;overflow:hidden!important;gap:clamp(7px,1vw,18px)!important;}
+body.v18-creator #page .create-grid{grid-auto-rows:max-content!important;grid-template-rows:none!important;height:100%!important;min-height:0!important;overflow-y:auto!important;overflow-x:hidden!important;overscroll-behavior:contain!important;align-content:start!important;padding-bottom:16px!important;scrollbar-width:thin;scrollbar-color:#4bafff #08152d;}
+body.v18-creator #page .creator-character{height:100%!important;min-height:0!important;overflow:hidden!important;box-sizing:border-box!important;}
+body.v18-creator #page .v39-style-picker{min-height:0!important;overflow:visible!important;}
+body.v18-creator #page .v39-choices{max-height:clamp(115px,24dvh,260px)!important;overscroll-behavior:contain!important;}
+body.v18-creator #page [data-click=createplayer]{flex:0 0 auto!important;min-height:36px!important;max-height:clamp(36px,6dvh,60px)!important;position:relative!important;z-index:2!important;margin:0!important;}
+body.v18-creator #page #createPreview{min-height:0!important;}
+body.v18-creator #v17Back{font-size:clamp(10px,1vw,16px)!important;}
+@media(max-height:550px) and (orientation:landscape){
+ body.v18-creator #page .pageBody{padding-top:33px!important;padding-bottom:5px!important;}
+ body.v18-creator #page .creator-panel>h3{font-size:clamp(12px,1.2vw,18px)!important;}
+ body.v18-creator #page .create-grid label{font-size:clamp(10px,.95vw,14px)!important;}
+ body.v18-creator #page .v39-choice{aspect-ratio:.95!important;}
+ body.v18-creator #page [data-click=createplayer]{min-height:28px!important;}
+}
+/* Keep match control labels tappable without overlap on short devices */
+@media(max-height:440px){#matchButtons{top:4px!important;left:4px!important}#scoreHud{top:3px!important;padding:3px 8px!important;font-size:11px!important}.action{max-width:15dvh!important;max-height:15dvh!important}}
+</style>
+
+<style id="v47-real-customizer-layout">
+/* V47: menu izquierdo, jugador central, opciones derechas */
+body.v18-creator #page .creator-wrap{display:grid!important;grid-template-columns:minmax(130px,18%) minmax(220px,34%) minmax(300px,48%)!important;gap:clamp(6px,.9vw,14px)!important;align-items:stretch!important;width:100%!important;max-width:none!important;min-height:0!important;}
+body.v18-creator #page .v47-sidebar{grid-column:1!important;grid-row:1!important;display:flex!important;flex-direction:column!important;gap:clamp(3px,.5vh,8px)!important;min-width:0!important;min-height:0!important;overflow-y:auto!important;border:1px solid #2477c8!important;border-radius:9px!important;background:linear-gradient(160deg,#071932fa,#020a1bea)!important;padding:clamp(5px,.6vw,10px)!important;box-shadow:0 0 16px #0f52ac30!important}
+body.v18-creator #page .v47-sidebar h4{margin:3px 2px 9px!important;color:#d8efff!important;font-size:clamp(9px,1vw,15px)!important;letter-spacing:.02em!important}
+body.v18-creator #page .v47-sidebar button{display:flex!important;align-items:center!important;gap:7px!important;padding:clamp(6px,1vh,13px) 7px!important;min-height:33px!important;background:#071b3a!important;border:1px solid #19467b!important;border-radius:6px!important;color:#d7e8ff!important;font-weight:700!important;text-align:left!important;font-size:clamp(10px,1vw,16px)!important;cursor:pointer!important;white-space:normal!important}
+body.v18-creator #page .v47-sidebar button[aria-pressed="true"]{background:linear-gradient(90deg,#a50b32,#390d2b)!important;border-color:#ff3f6b!important;box-shadow:0 0 11px #f51e6070!important;color:#fff!important}
+body.v18-creator #page .v47-sidebar .v47-icon{font-size:clamp(15px,1.5vw,23px)!important;flex:none!important}
+body.v18-creator #page .creator-character{grid-column:2!important;grid-row:1!important;min-width:0!important}
+body.v18-creator #page .create-grid{grid-column:3!important;grid-row:1!important;min-width:0!important;min-height:0!important;overflow-y:auto!important;overflow-x:hidden!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;align-content:start!important;padding:clamp(5px,.75vw,12px)!important}
+body.v18-creator #page .v39-tabs{display:none!important}
+body.v18-creator #page .v39-choices{grid-template-columns:repeat(5,minmax(0,1fr))!important;max-height:clamp(150px,35vh,320px)!important}
+body.v18-creator #page .creator-panel>h3{padding:0!important;margin:0!important;text-align:center!important}
+body.v18-creator #page .v47-sidebar button:focus-visible{outline:2px solid #fff!important;outline-offset:2px!important}
+@media(max-width:780px){body.v18-creator #page .creator-wrap{grid-template-columns:minmax(96px,20%) minmax(130px,32%) minmax(190px,48%)!important;gap:4px!important}body.v18-creator #page .v47-sidebar button{padding:5px 3px!important;font-size:10px!important}body.v18-creator #page .v39-choices{gap:2px!important;padding:2px!important}}
+</style>
+
+<style id="v48-fondo-estadio-completo">
+/* Escenario de estadio rojo y azul detrás de TODO el personalizador. */
+body.v18-creator #page{position:relative!important;isolation:isolate!important;background:linear-gradient(90deg,rgba(2,7,24,.57),rgba(1,8,26,.25) 43%,rgba(1,8,25,.58)),url('estadio-personalizador.svg') center center/cover no-repeat!important}
+body.v18-creator #page::before{content:"";pointer-events:none;position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 51% 70%,transparent 7%,#02081760 95%)}
+body.v18-creator #page .pageBody{background:transparent!important;width:100%!important;max-width:none!important}
+body.v18-creator #page .creator-panel{background:transparent!important;border:0!important;box-shadow:none!important;width:min(100%,1650px)!important}
+body.v18-creator #page .creator-character.v13-preview-box{background:transparent!important;border:1px solid #4093f27a!important;box-shadow:inset 0 0 38px #02112e54,0 0 20px #186df94a!important}
+body.v18-creator #page .creator-character.v13-preview-box::after{background:linear-gradient(90deg,#02091b2e,transparent 38%,transparent 65%,#02091b2e)!important}
+body.v18-creator #page .creator-character.v13-preview-box::before{content:"RED LOCK"!important;display:block!important;white-space:nowrap;position:absolute;top:30%;left:3%;width:94%;font-weight:1000;font-size:clamp(18px,3vw,58px);font-style:italic;letter-spacing:-.06em;color:#eb2e65;opacity:.27;text-shadow:2px 2px 0 #357afa,0 0 14px #f81766;z-index:0;pointer-events:none;transform:skew(-9deg)}
+body.v18-creator #page .v47-sidebar{background:linear-gradient(155deg,#041127e0,#071731d4)!important;backdrop-filter:blur(6px)}
+body.v18-creator #page .create-grid{background:linear-gradient(145deg,#06152bec,#020d26e8)!important;backdrop-filter:blur(6px)}
+body.v18-creator #page .v39-style-picker{background:#04152cdd!important}
+@media(max-width:820px){body.v18-creator #page .creator-panel{padding:5px!important}body.v18-creator #page .pageBody{padding:5px!important}}
+</style>
+
+<style id="v49-personalizador-de-verdad">
+/* Reemplaza los antiguos desplegables por el selector visual de la referencia. */
+body.v18-creator #page{background:linear-gradient(90deg,rgba(3,8,27,.16),rgba(2,8,30,.10),rgba(2,6,25,.22)),url('estadio-personalizador.svg') center/cover no-repeat!important;}
+body.v18-creator #page .creator-panel>p{display:none!important}
+body.v18-creator #page .create-grid:before{display:none!important;content:none!important}
+body.v18-creator #page .create-grid{background:linear-gradient(140deg,#06142fd6,#021128bd)!important;border:1px solid #2786ef!important;border-radius:10px!important;align-content:start!important;display:grid!important;grid-template-columns:1fr!important;gap:9px!important;scrollbar-width:thin!important;}
+body.v18-creator #page .create-grid>label,
+body.v18-creator #page .create-grid>.v38-face-thumbs,
+body.v18-creator #page .create-grid>.v38-kit-grid,
+body.v18-creator #page .create-grid>.v39-style-picker{display:none!important}
+body.v18-creator #page .create-grid[data-v49mode="hair"]>.v39-style-picker,
+body.v18-creator #page .create-grid[data-v49mode="headShape"]>.v39-style-picker,
+body.v18-creator #page .create-grid[data-v49mode="face"]>.v39-style-picker,
+body.v18-creator #page .create-grid[data-v49mode="eyeShape"]>.v39-style-picker,
+body.v18-creator #page .create-grid[data-v49mode="mouth"]>.v39-style-picker{display:block!important;grid-column:1!important}
+body.v18-creator #page .create-grid[data-v49mode="kit"]>.v38-kit-grid{display:grid!important;grid-column:1!important}
+body.v18-creator #page .create-grid[data-v49mode="kit"]>label:has(#createKitStyle),
+body.v18-creator #page .create-grid[data-v49mode="kit"]>label:has(#createUniform),
+body.v18-creator #page .create-grid[data-v49mode="aura"]>label:has(#createAura),
+body.v18-creator #page .create-grid[data-v49mode="aura"]>label:has(#createAuraColor),
+body.v18-creator #page .create-grid[data-v49mode="muscle"]>label:has(#createMusculature),
+body.v18-creator #page .create-grid[data-v49mode="muscle"]>label:has(#createChestWidth),
+body.v18-creator #page .create-grid[data-v49mode="muscle"]>label:has(#createArmWidth),
+body.v18-creator #page .create-grid[data-v49mode="muscle"]>label:has(#createShoulderWidth){display:block!important;grid-column:1!important}
+body.v18-creator #page .v39-style-picker{padding:10px!important;background:transparent!important;border:0!important;box-shadow:none!important}
+body.v18-creator #page .v39-style-picker h4{display:none!important}
+body.v18-creator #page .v39-choices{max-height:none!important;overflow-y:auto!important;grid-template-columns:repeat(5,minmax(0,1fr))!important}
+body.v18-creator #page .v47-sidebar{background:#03122ac9!important;backdrop-filter:blur(3px)}
+body.v18-creator #page .creator-character.v13-preview-box{background:transparent!important}
+body.v18-creator #page .create-grid::after{content:'TOCÁ UNA OPCIÓN PARA CAMBIAR TU JUGADOR';font-size:10px;letter-spacing:.05em;text-align:center;color:#90caff;grid-column:1;opacity:.85}
+body.v18-creator #page .create-grid[data-v49mode="kit"]::before{content:'👕 16 UNIFORMES';display:block!important;grid-column:1!important;color:#bcdfff;font-weight:900}
+body.v18-creator #page .create-grid[data-v49mode="aura"]::before{content:'🔥 40 AURAS EGO';display:block!important;grid-column:1!important;color:#bcdfff;font-weight:900}
+body.v18-creator #page .create-grid[data-v49mode="muscle"]::before{content:'💪 MUSCULATURA · BRAZOS · PECHO · HOMBROS';display:block!important;grid-column:1!important;color:#bcdfff;font-weight:900}
+@media(max-width:850px){body.v18-creator #page .v39-choices{grid-template-columns:repeat(4,minmax(0,1fr))!important}body.v18-creator #page .create-grid{padding:5px!important}}
+</style>
 </head><body>
 <div id="turn"><div><div style="font-size:42px">📱 ↻ 🎮</div><h2>¡Giralo en horizontal!</h2><p>Desactivá el bloqueo de rotación de tu iPhone para disfrutar todo el juego.</p><button id="turnContinue">Continuar de todas formas</button></div></div>
 <button id="v17Back" type="button">← MENÚ PRINCIPAL</button><div id="app"><header class="bar"><button id="back">☰ MENÚ</button><div><h1>🔴 RED LOCK <span style="color:#4db9ff">ULTIMATE</span></h1><small id="where">FÚTBOL LIBRE • TEMPORADA EGO</small></div><button type="button" class="pill" id="coinOpen">🪙 <span id="money">1250</span> ▸</button><button id="full">⛶ Pantalla</button></header>
@@ -808,63 +963,109 @@ const lineupNames=['Hikaru Shirogane','Kuroda Raion','Minase Toki','Kaino Rei','
 
 function characterSvg(c,doingKick=false){
  const muscleScale=0.78+(Math.max(0,Math.min(100,Number(c.musculature??50)))/100)*0.50;
+ const kitNo=Math.max(0,Math.min(15,Number(c.kitStyle)||0));
+ const chestScale=.84+Math.max(0,Math.min(100,Number(c.chestWidth??50)))*.0072;
+ const armScale=.78+Math.max(0,Math.min(100,Number(c.armWidth??50)))*.0064;
+ const shoulderScale=.85+Math.max(0,Math.min(100,Number(c.shoulderWidth??50)))*.003;
  const skin=c.skin||'#d8a276',uniform=c.uniform||'#e63050',hair=c.hairColor||'#f2f6ff',eyes=c.eyes||'#278cff',number=Number(c.number)||10,shape=c.hair||'Nube plateada';
  const locks=shape.includes('Trenzas')?'<path d="M83 62l-13 29m70-29l13 29" stroke="'+hair+'" stroke-width="9" stroke-linecap="round"/>':shape.includes('Puntas')||shape.includes('Corona')?'<path d="M73 67l-8-32 23 14 9-26 12 26 22-20 2 34" fill="'+hair+'"/>':'<path d="M75 65q-14-22 8-31 14-15 28-5 26-7 31 17l-14 11-7-9-10 13-13-8-17 13Z" fill="'+hair+'"/>';
  
- const hairIndex=Number((shape.match(/Estilo (\\d+)/)||[])[1]||0);
- const proceduralLocks=hairIndex?Array.from({length:7+hairIndex%7},(_,i)=>{
-  const angle=Math.PI*1.08+(i/Math.max(1,6+hairIndex%7))*Math.PI*.88;
-  const x=105+Math.cos(angle)*39,y=61+Math.sin(angle)*25;
-  const tipX=105+Math.cos(angle)*(48+(hairIndex*7+i*9)%26),tipY=61+Math.sin(angle)*(33+(hairIndex*11+i*5)%28);
-  return `<path d="M${x.toFixed(1)} ${y.toFixed(1)} L${tipX.toFixed(1)} ${tipY.toFixed(1)}" stroke="${hair}" stroke-width="${5+hairIndex%5}" stroke-linecap="round"/>`
- }).join(''):'';
+ const hairIndex=Number((shape.match(/Estilo (\d+)/)||[])[1]||0);
+ const proceduralLocks=hairIndex?(()=>{const typ=hairIndex%8, density=5+hairIndex%7, length=24+(hairIndex*13)%26;let result='';
+   for(let i=0;i<density;i++){const t=i/Math.max(1,density-1);const x=60+t*91;const crownY=24+Math.abs(t-.5)*13;const tipY=typ===0?35+Math.abs(t-.5)*33:typ===1?21+(i%3)*14:typ===2?48+i%2*15:typ===3?11+(i%4)*9:typ===4?38+(i*7)%22:typ===5?22+(i*9)%30:typ===6?44+(i%5)*7:28+(i%4)*12;const tipX=x+(typ%2?-(i%3)*7:(i%4)*7)-8;
+     if(typ===6){result+=`<path d="M${x.toFixed(1)} ${crownY+3} Q${x+13} ${crownY-24} ${tipX.toFixed(1)} ${tipY}" stroke="${hair}" stroke-width="${7+hairIndex%4}" fill="none" stroke-linecap="round"/>`}
+     else result+=`<path d="M${(x-5).toFixed(1)} ${(crownY+12).toFixed(1)} Q${(x+5).toFixed(1)} ${crownY-12} ${tipX.toFixed(1)} ${tipY} L${(x+8).toFixed(1)} ${(crownY+13).toFixed(1)}Z" fill="${hair}" stroke="#29324b" stroke-width=".7"/>`;
+   }
+   if(typ===2||typ===4)result+=`<path d="M69 47 Q108 ${22-hairIndex%8} 143 44 Q122 52 106 73 Q88 53 71 74Z" fill="${hair}" stroke="#1d2438" stroke-width="2"/>`;
+   if(typ===3||typ===7)result+=`<path d="M65 36 Q103 -${hairIndex%14} 146 38L139 53 126 43 106 58 90 42 72 59Z" fill="${hair}" stroke="#1d2438" stroke-width="2"/>`;
+   if(typ===5)result+=`<path d="M69 42 Q55 69 77 ${90+hairIndex%18} L87 64 Q98 35 124 32 Q151 47 143 ${99+hairIndex%16} L138 55Z" fill="${hair}" stroke="#1d2438" stroke-width="2"/>`;
+   return result;
+ })():'';
  const faceShape=c.face||'oval', eyeShape=c.eyeShape||'anime';
- const faces={oval:{rx:40,ry:49},redonda:{rx:44,ry:43},cuadrada:{rx:42,ry:44},afilada:{rx:36,ry:49},alargada:{rx:34,ry:54}};
+ const headShape=c.headShape||'animeAngular';
+ const headN=Math.max(0,Math.min(15,Number(headShape.replace('cabeza',''))||0));
+ const faces={oval:{rx:40,ry:49},redonda:{rx:44,ry:43},cuadrada:{rx:42,ry:44},afilada:{rx:36,ry:49},alargada:{rx:34,ry:54}};for(let i=1;i<=11;i++)faces["cara"+i]={rx:31+(i*7)%17,ry:42+(i*5)%15};
  const ff=faces[faceShape]||faces.oval;
  const faceOutline=faceShape==='cuadrada'?`<path d="M71 41 Q70 26 105 26 Q140 26 139 42 L141 87 L122 116 L90 116 L69 88Z" fill="${skin}"/>`:faceShape==='afilada'?`<path d="M70 43Q77 22 105 23Q138 23 141 43Q143 91 105 124Q68 94 70 43Z" fill="${skin}"/>`:`<ellipse cx="105" cy="72" rx="${ff.rx}" ry="${ff.ry}" fill="${skin}"/>`;
- const eyesSvg=([-1,1].map((side)=>{const x=side===-1?91:120;let rx=6,ry=8,slant=0;if(eyeShape.startsWith('estilo')){const n=Number(eyeShape.slice(6))||1;rx=4+n%7;ry=3+(n*3)%10;slant=side===-1?(-20+n*4):(20-n*4)}else if(eyeShape==='redondos'){rx=8;ry=9}else if(eyeShape==='finos'){rx=9;ry=3}else if(eyeShape==='rasgados'){rx=9;ry=4;slant=side===-1?-20:20}else if(eyeShape==='caidos'){rx=8;ry=5;slant=side===-1?16:-16}else if(eyeShape==='grandes'){rx=9;ry=12}return `<ellipse cx="${x}" cy="75" rx="${rx}" ry="${ry}" transform="rotate(${slant} ${x} 75)" fill="white" stroke="#242237" stroke-width="2"/><ellipse cx="${x}" cy="75" rx="${Math.max(2,rx*.52)}" ry="${Math.max(2,ry*.72)}" fill="${eyes}"/><circle cx="${x-1}" cy="72" r="1.5" fill="white"/>`}).join(''));
+ const headOutline=headShape==='animeAngular'?`<path d="M72 48 Q73 29 90 25 L121 25 Q139 30 140 49 L136 84 Q126 104 106 115 Q86 106 75 85Z" fill="${skin}" stroke="#161e30" stroke-width="2.7"/>`:headN===0?'':headN%5===0?`<path d="M${70+headN%6} 48 Q${74+headN%8} ${11+headN%9} 105 ${21-headN%5} Q${138-headN%6} 20 ${140-headN%5} 49 L${138+headN%5} ${91+headN%4} Q105 ${134-headN%7} ${72-headN%5} 90Z" fill="${skin}"/>`:headN%5===1?`<ellipse cx="105" cy="73" rx="${35+headN%10}" ry="${44+headN%8}" fill="${skin}"/>`:headN%5===2?`<path d="M69 50Q71 ${18+headN%9} 105 ${21+headN%8}Q141 24 142 50L${139+headN%5} 97Q105 130 ${72-headN%4} 96Z" fill="${skin}"/>`:headN%5===3?`<path d="M72 42Q105 ${10+headN%10} 139 42Q151 81 105 ${119+headN%6}Q59 81 72 42Z" fill="${skin}"/>`:`<ellipse cx="105" cy="72" rx="${41+headN%6}" ry="${48+headN%10}" fill="${skin}"/>`;
+ const eyesSvg=([-1,1].map((side)=>{const x=side===-1?91:120;let rx=6,ry=8,slant=0;if(eyeShape.startsWith('estilo')){const n=Number(eyeShape.slice(6))||1;rx=4+n%7;ry=3+(n*3)%10;slant=side===-1?(-20+n*4):(20-n*4)}else if(eyeShape==='redondos'){rx=8;ry=9}else if(eyeShape==='finos'){rx=9;ry=3}else if(eyeShape==='rasgados'){rx=9;ry=4;slant=side===-1?-20:20}else if(eyeShape==='caidos'){rx=8;ry=5;slant=side===-1?16:-16}else if(eyeShape==='grandes'){rx=9;ry=12}return `<path d="M${x-rx-3} 73 L${x+rx+3} 71 L${x+rx} ${75+Math.max(3,ry*.6)} L${x-rx} ${75+Math.max(3,ry*.6)}Z" fill="#f7fcff" stroke="#171b34" stroke-width="2.3"/><path d="M${x-3} 73 L${x+3} 72 L${x+4} ${75+Math.max(3,ry*.6)} L${x-3} ${75+Math.max(3,ry*.6)}Z" fill="${eyes}"/><path d="M${x-rx-5} 66 L${x+rx+3} 63" stroke="#171b34" stroke-width="3" stroke-linecap="round"/><path d="M${x-1} 74 L${x+1} 74" stroke="#fff" stroke-width="1.8"/>`}).join(''));
  const mouth=c.mouth||'sonrisa';
  const mouths={sonrisa:'M96 100 Q105 108 115 99',seria:'M97 101 H114',abierta:'M98 99 Q105 114 113 99 Z',enojada:'M97 103 Q105 98 114 103',feliz:'M94 99 Q105 114 117 99',timida:'M101 102 Q106 105 110 102',dientes:'M96 99 H116 V105 H96 Z',pico:'M99 99 L106 104 L113 99',oval:'M101 99 Q106 94 111 99 Q112 109 106 110 Q100 108 101 99',fina:'M99 101 L112 100',lado:'M98 104 Q105 99 114 102',grito:'M98 96 Q106 94 114 96 L111 111 L101 111 Z',neutral:'M99 102 H112',sorpresa:'M102 99 Q106 95 110 99 Q113 109 106 110 Q100 108 102 99',orgullo:'M97 101 Q106 107 116 98',reto:'M97 102 L106 99 L115 102'};
  const mouthPath=mouths[mouth]||mouths.sonrisa;
  const aura=c.aura&&c.aura!=='Ninguna'?'<ellipse cx="106" cy="157" rx="76" ry="141" fill="none" stroke="'+(c.auraColor||({Fuego:'#ff5b26',Rayo:'#4bcaff',Sombra:'#ac74ff',Oro:'#ffdb51'}[c.aura]||'#4bcaff'))+'" stroke-width="8" opacity=".65"/>':'';
  const kickFrames=doingKick?'<animateTransform attributeName="transform" type="rotate" values="0 114 231;-16 114 231;42 114 231;0 114 231" keyTimes="0;.22;.58;1" dur=".65s" repeatCount="1"/>':'';
+ const kitColors=['#f13d55','#137cf0','#f4f6ff','#161a2c','#ffbe25','#26d3b2','#a24cf0','#fa6e2a','#c9ec38','#d72143','#ef5aaf','#1f5c94','#c4c8d6','#35433a','#ec4141','#063cae'];
+ const kitMain=kitNo===2?'#edf8ff':(c.uniform&&c.uniform!=='#e63050'?c.uniform:kitColors[kitNo]);
+ const kitAccent=['#ffffff','#ffffff','#17233d','#f0bc3e','#111827','#112f45','#ffffff','#0d2344','#132c20','#222','#ffffff','#73ddff','#141e31','#e6f6d5','#ffffff','#ffd24f'][kitNo];
  const raw=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 340">
-<defs><linearGradient id="kit" x2="1" y2="1"><stop stop-color="${uniform}"/><stop offset="1" stop-color="#10162b"/></linearGradient><linearGradient id="pants" x2="1" y2="1"><stop stop-color="#23324b"/><stop offset="1" stop-color="#060b17"/></linearGradient></defs>
+<defs><linearGradient id="kit" x2="1" y2="1"><stop stop-color="${kitMain}"/><stop offset="1" stop-color="#10162b"/></linearGradient><linearGradient id="pants" x2="1" y2="1"><stop stop-color="#23324b"/><stop offset="1" stop-color="#060b17"/></linearGradient></defs>
 ${aura}<ellipse cx="105" cy="329" rx="53" ry="6" fill="#0008"/>
 <g transform="translate(106 0) scale(${muscleScale.toFixed(3)} 1) translate(-106 0)">
 <!-- Anime athletic silhouette: long legs, fitted shorts, cleats -->
-<path d="M83 237L76 264 66 310 86 312 96 260 102 239Z" fill="${skin}" stroke="#392b2c" stroke-width="2"/>
-<g>${kickFrames}<path d="M115 238L122 263 135 310 154 308 142 260 137 239Z" fill="${skin}" stroke="#392b2c" stroke-width="2"/>
+<path d="M83 237L76 264 66 310 86 312 96 260 102 239Z" fill="${kitNo===2?'#131a3b':skin}" stroke="#392b2c" stroke-width="2"/>
+<g>${kickFrames}<path d="M115 238L122 263 135 310 154 308 142 260 137 239Z" fill="${kitNo===2?'#131a3b':skin}" stroke="#392b2c" stroke-width="2"/>
 <path d="M66 282L90 282 86 315 64 315Z M130 282L148 282 155 314 134 316Z" fill="#e7ecf5"/>
 <path d="M66 311L85 310 92 324Q89 330 54 327L52 320Z" fill="#eaf1fb" stroke="#0c1322" stroke-width="2"/>
 <path d="M134 312L154 310 171 323Q169 330 131 327Z" fill="#eaf1fb" stroke="#0c1322" stroke-width="2"/></g>
-<path d="M80 185 L140 185 L149 235 L115 239 L109 211 L103 238 L69 233 Z" fill="url(#pants)" stroke="#344967" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M80 185 L140 185 L149 235 L115 239 L109 211 L103 238 L69 233 Z" fill="${kitNo===2?'#bddcf2':'url(#pants)'}" stroke="#344967" stroke-width="2.5" stroke-linejoin="round"/>
 <path d="M70 227 Q86 234 102 230 M117 230 Q132 233 147 227" fill="none" stroke="#e9f2ff" stroke-width="3" opacity=".8"/>
 <path d="M106 192 L106 213" stroke="#6f85a6" stroke-width="2" opacity=".8"/>
+${kitNo===2?`<path d="M78 243 L71 277 88 281 99 247 M117 247L131 279 149 275 138 241" fill="none" stroke="#384d9b" stroke-width="5" opacity=".8"/>`:''}
 <!-- jersey with real short sleeves and moving-ready arms -->
+<g transform="translate(106 160) scale(${(chestScale*shoulderScale).toFixed(3)} 1) translate(-106 -160)">
 <path d="M78 108Q68 110 56 124L46 148 67 157 79 140 76 199Q104 213 141 198L137 139 150 157 169 147 155 119 135 109 117 103 96 103Z" fill="url(#kit)" stroke="#080f1c" stroke-width="3" stroke-linejoin="round"/>
 <path d="M51 145L67 151 62 159 47 154Z M149 152L166 145 171 154 155 160Z" fill="#eef5ff" opacity=".85"/>
-<path d="M51 156L43 188 36 217Q37 226 44 225L55 194 64 160Z" fill="${skin}" stroke="#302027" stroke-width="2"/>
-<path d="M157 158L168 188 176 217Q175 226 168 225L155 193 149 160Z" fill="${skin}" stroke="#302027" stroke-width="2"/>
+<path transform="translate(56 0) scale(${armScale.toFixed(3)} 1) translate(-56 0)" d="M51 156L43 188 36 217Q37 226 44 225L55 194 64 160Z" fill="${kitNo===2?'#111936':skin}" stroke="#302027" stroke-width="2"/>
+<path transform="translate(157 0) scale(${armScale.toFixed(3)} 1) translate(-157 0)" d="M157 158L168 188 176 217Q175 226 168 225L155 193 149 160Z" fill="${kitNo===2?'#111936':skin}" stroke="#302027" stroke-width="2"/>
+${kitNo===2?`<path d="M55 131 L73 118 82 127 L79 190 L93 201 L129 201 L139 190 136 127 149 118 161 135 149 153 137 140 135 193 Q107 211 78 193 L77 141 64 155Z" fill="#eaf7ff" stroke="#263f71" stroke-width="2"/><path d="M76 120L88 111 94 134 83 148 82 190 91 198 M138 119L124 111 119 134 130 147 133 190 123 199" fill="#8dbce0" stroke="#344e7f" stroke-width="2"/><path d="M92 108L106 118 120 108" fill="none" stroke="#121a3b" stroke-width="8"/>`:''}
 <path d="M94 105L106 119 120 105" fill="none" stroke="#f0f5ff" stroke-width="4"/>
+${kitNo===2?`<path d="M78 145L85 183 M137 145L129 183" fill="none" stroke="#b2d8ee" stroke-width="4"/><path d="M104 127L110 127 110 134 104 134Z" fill="#182d56"/>`:kitNo%4===0?`<path d="M91 115L96 190 M122 115L128 192" stroke="${kitAccent}" stroke-width="5" opacity=".9"/>`:kitNo%4===1?`<path d="M78 155L139 155 M77 169L141 169" stroke="${kitAccent}" stroke-width="7" opacity=".85"/>`:kitNo%4===2?`<path d="M81 111L139 197 M136 112L80 197" stroke="${kitAccent}" stroke-width="8" opacity=".55"/>`:`<path d="M105 120L105 194" stroke="${kitAccent}" stroke-width="16" opacity=".8"/>`}
 <path d="M79 155L137 164 M80 180L138 186" stroke="#ffffff" opacity=".16" stroke-width="3"/>
-<text x="108" y="178" fill="#fff" text-anchor="middle" font-size="30" font-family="Arial,sans-serif" font-style="italic" font-weight="900" stroke="#0d1424" stroke-width=".7">${number}</text>
+<text x="108" y="178" fill="${kitNo===2?'#243a71':'#fff'}" text-anchor="middle" font-size="30" font-family="Arial,sans-serif" font-style="italic" font-weight="900" stroke="#0d1424" stroke-width=".7">${number}</text>
+</g>
 </g>
 <path d="M95 97L96 112Q106 120 117 112L116 95" fill="${skin}"/>
-<!-- Angular manga face and narrow eyes -->
-<path d="M67 48Q69 21 106 20Q144 20 146 52L139 85Q127 105 106 111Q84 105 73 87Z" fill="${skin}" stroke="#39272b" stroke-width="2"/>
-<path d="M72 72L94 70 100 75 87 79 74 77Z M113 75L119 70 140 72 138 77 125 79Z" fill="#f5f9ff" stroke="#1b243a" stroke-width="2"/>
-<path d="M89 71L94 72 94 78 88 78Z M123 72L129 71 130 78 124 78Z" fill="${eyes}"/>
-<path d="M74 67L98 69 M115 69L139 67" stroke="#201b27" stroke-width="3" stroke-linecap="round"/>
-<path d="M105 80L103 91 109 92" stroke="#9c6455" stroke-width="1.6" fill="none"/>
-<path d="${mouthPath}" stroke="#653d3c" stroke-width="2" fill="none"/>
-<!-- Layered sharp anime haircut -->
-<path d="M68 70Q55 41 72 24L67 12 88 20Q107 2 128 16L151 10 143 29Q158 43 144 72L135 55 124 61 117 48 104 63 95 50 80 67Z" fill="${hair}" stroke="#1c253a" stroke-width="2"/>
-<path d="M78 32L64 51 85 45 77 61 105 42 113 55 137 34" fill="none" stroke="#fff" stroke-width="3" opacity=".3"/>
+<!-- Cara, ojos, boca y peinados realmente personalizados -->
+${headOutline||faceOutline}
+${eyesSvg}
+<path d="M105 81 L103 92 L109 93" stroke="#9c6455" stroke-width="1.5" fill="none"/>
+<path d="${mouthPath}" stroke="#653d3c" stroke-width="2.5" fill="${['abierta','grito','oval','sorpresa','dientes'].includes(mouth)?'#481b2e':'none'}"/>
+${locks}
+${hairIndex?`<path d="M65 57Q48 25 76 19L${78+hairIndex%17} 8 99 19 124 8 146 20Q162 39 145 64L127 46 113 57 99 41 84 63Z" fill="${hair}" stroke="#1d2438" stroke-width="2"/>`:`<path d="M68 70Q55 41 72 24L67 12 88 20Q107 2 128 16L151 10 143 29Q158 43 144 72L135 55 124 61 117 48 104 63 95 50 80 67Z" fill="${hair}" stroke="#1d2438" stroke-width="2"/>`}
+<path d="M78 32L64 51 85 45 77 61 105 42 113 55 137 34" fill="none" stroke="#fff" stroke-width="2.7" opacity=".24"/>
 ${proceduralLocks}</svg>`;
  return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(raw);
 }
-function customPreview(){const c={name:document.getElementById('createName')?.value||'Nuevo jugador',hair:document.getElementById('createHair')?.value,face:document.getElementById('createFace')?.value||'oval',eyeShape:document.getElementById('createEyeShape')?.value||'anime',skin:document.getElementById('createSkin')?.value,uniform:document.getElementById('createUniform')?.value,hairColor:document.getElementById('createHairColor')?.value,eyes:document.getElementById('createEyes')?.value,number:document.getElementById('createNumber')?.value,mouth:document.getElementById('createMouth')?.value,aura:document.getElementById('createAura')?.value,auraColor:document.getElementById('createAuraColor')?.value,musculature:Number(document.getElementById('createMusculature')?.value??50)};const label=document.getElementById('musculatureLabel');if(label)label.textContent=c.musculature<34?'Delgado':c.musculature>66?'Ancho / musculoso':'Normal';const im=document.getElementById('createPreview');if(im)im.src=characterSvg(c);return c}
+function updateFaceThumbs(c){const box=document.getElementById('v38HairFacePreview');if(!box)return;const mini=characterSvg(c);box.innerHTML=`<div class="v38-thumb"><div class="v38-face-crop"><img src="${mini}" alt="Acercamiento de pelo, cara, ojos y boca"></div><small>Vista de la cara actual</small></div>`;}
+
+const v39Kinds={headShape:['animeAngular','natural',...Array.from({length:16},(_,i)=>'cabeza'+(i+1))],face:['oval','redonda','cuadrada','afilada','alargada',...Array.from({length:11},(_,i)=>'cara'+(i+1))],eyeShape:['anime','redondos','finos','rasgados','caidos','grandes',...Array.from({length:10},(_,i)=>'estilo'+(i+1))],hair:[...hairOptions,...Array.from({length:28},(_,i)=>'Estilo '+(i+1))],mouth:['sonrisa','seria','abierta','enojada','feliz','timida','dientes','pico','oval','fina','lado','grito','neutral','sorpresa','orgullo','reto']};
+let v39Current='hair';
+// Las miniaturas representan la cabeza del MISMO modelo SVG usado en el juego.
+function v45HeadPortrait(c){
+ const url=characterSvg(c);
+ try{
+  let svg=decodeURIComponent(url.slice(url.indexOf(',')+1));
+  svg=svg.replace(/viewBox="[^"]*"/, 'viewBox="47 0 116 139"');
+  svg=svg.replace(/<svg(\s)/,'<svg preserveAspectRatio="xMidYMid meet"$1');
+  return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+ }catch(err){return url;}
+}
+const v45Titles={headShape:'FORMA DE CABEZA',face:'CARAS',eyeShape:'OJOS',hair:'PELO',mouth:'BOCA'};
+function v39Render(){
+ const box=document.getElementById('v39Choices');if(!box)return;
+ const id={headShape:'createHeadShape',face:'createFace',eyeShape:'createEyeShape',hair:'createHair',mouth:'createMouth'}[v39Current];
+ const sel=document.getElementById(id);if(!sel)return;
+ const base=customPreviewValues();
+ const heading=document.getElementById('v45PickHeading');
+ if(heading)heading.textContent=v45Titles[v39Current]+'  ◀  '+v39Kinds[v39Current].length+' OPCIONES  ▶';
+ box.innerHTML=v39Kinds[v39Current].map((val,i)=>{
+  const c={...base,[v39Current]:val};
+  return `<button type="button" class="v39-choice ${sel.value===val?'selected':''}" data-v39pick="${i}" title="${val}" aria-label="Elegir ${val}" aria-pressed="${sel.value===val}"><img src="${v45HeadPortrait(c)}" alt="${val}" loading="lazy"><span>${sel.value===val?'✓ ':''}${i+1}</span></button>`
+ }).join('');
+ document.querySelectorAll('[data-v39tab]').forEach(b=>b.classList.toggle('selected',b.dataset.v39tab===v39Current));
+}
+function customPreviewValues(){return {headShape:document.getElementById('createHeadShape')?.value,hair:document.getElementById('createHair')?.value,face:document.getElementById('createFace')?.value,eyeShape:document.getElementById('createEyeShape')?.value,mouth:document.getElementById('createMouth')?.value,skin:document.getElementById('createSkin')?.value,uniform:document.getElementById('createUniform')?.value,hairColor:document.getElementById('createHairColor')?.value,eyes:document.getElementById('createEyes')?.value,kitStyle:document.getElementById('createKitStyle')?.value,number:10};}
+function customPreview(){const c={kitStyle:document.getElementById('createKitStyle')?.value||0,chestWidth:Number(document.getElementById('createChestWidth')?.value??50),armWidth:Number(document.getElementById('createArmWidth')?.value??50),shoulderWidth:Number(document.getElementById('createShoulderWidth')?.value??50),name:document.getElementById('createName')?.value||'Nuevo jugador',headShape:document.getElementById('createHeadShape')?.value||'animeAngular',hair:document.getElementById('createHair')?.value,face:document.getElementById('createFace')?.value||'oval',eyeShape:document.getElementById('createEyeShape')?.value||'anime',skin:document.getElementById('createSkin')?.value,uniform:document.getElementById('createUniform')?.value,hairColor:document.getElementById('createHairColor')?.value,eyes:document.getElementById('createEyes')?.value,number:document.getElementById('createNumber')?.value,mouth:document.getElementById('createMouth')?.value,aura:document.getElementById('createAura')?.value,auraColor:document.getElementById('createAuraColor')?.value,musculature:Number(document.getElementById('createMusculature')?.value??50)};const label=document.getElementById('musculatureLabel');if(label)label.textContent=c.musculature<34?'Delgado':c.musculature>66?'Ancho / musculoso':'Normal';const armLabel=document.getElementById('armWidthLabel');if(armLabel)armLabel.textContent=c.armWidth<34?'Brazos finos':c.armWidth>66?'Brazos anchos':'Normal';const shoulderLabel=document.getElementById('shoulderWidthLabel');if(shoulderLabel)shoulderLabel.textContent=c.shoulderWidth<34?'Hombros estrechos':c.shoulderWidth>66?'Hombros anchos':'Normal';const cLabel=document.getElementById('chestWidthLabel');if(cLabel)cLabel.textContent=c.chestWidth<34?'Estrecho':c.chestWidth>66?'Pecho ancho':'Normal';document.querySelectorAll('[data-kitpick]').forEach(b=>b.classList.toggle('chosen',+b.dataset.kitpick===+c.kitStyle));updateFaceThumbs(c);v39Render();const im=document.getElementById('createPreview');if(im)im.src=characterSvg(c);return c}
 
 function refreshLobby(){
  const roster=document.getElementById('v19Roster');
@@ -873,7 +1074,7 @@ function refreshLobby(){
  const s=document.getElementById('ultPlayerstrip');
  if(s){s.innerHTML=lineupNames.slice(0,6).map((name,i)=>`<button type="button" class="ult-face ${playerIndex===i?'chosen':''}" data-person="${i}" title="${name}"><img src="jugador-${i+1}.svg" alt="${name}, personaje completo"><small>${name.split(' ')[0]}</small></button>`).join('');s.querySelectorAll('[data-person]').forEach(b=>b.onclick=()=>selectPlayer(+b.dataset.person));}
  document.getElementById('ultNick').textContent=nick;
- const hero=document.getElementById('ultHeroImg');if(hero)hero.src=selectedCustom()?characterSvg(selectedCustom()):`jugador-${(playerIndex%6)+1}.svg`;
+ const hero=document.getElementById('ultHeroImg');if(hero)hero.src=selectedCustom()?characterSvg(selectedCustom()):`personaje-${(playerIndex%6)+1}.jpg`;
  const hname=document.getElementById('ultHeroName');if(hname)hname.textContent=(selectedCustom()?.name||lineupNames[playerIndex%lineupNames.length]).toUpperCase();
  const money=document.getElementById('ultMoney');if(money)money.textContent=currency.toLocaleString('es-CR');
  const lvl=document.getElementById('ultLevel');if(lvl)lvl.textContent=1+Math.floor(training/2)+Math.floor(rank/100);
@@ -898,7 +1099,7 @@ case 'jugar':out=`<div class="tiles">${btn('Partido rápido','rapido')}${btn('Pa
 case 'historia':out=`<div class="panel"><h3>CAPÍTULO 1 · DESPERTAR EGO</h3><p>Tu equipo se enfrenta a los Rivales Eternos. El objetivo es marcar dos goles ante un portero mejorado.</p>${action('story','▶️ EMPEZAR CAPÍTULO')}</div>`;break;
 case 'personajes':out=`<div class="panel"><h3>⚡ 16 FUTBOLISTAS DE CUERPO COMPLETO</h3><p>Elegí cualquiera para jugar. Los diseños son originales y están dibujados de pies a cabeza.</p><div class="roster-grid">${lineupNames.map((n,i)=>`<button class="roster-card ${playerIndex===i?'active':''}" data-personpage="${i}"><img src="jugador-${i+1}.svg" alt="${n} cuerpo completo"><strong>${n}</strong><small>⚡ ${66+(i*7)%29} · 🎯 ${69+(i*9)%29}</small></button>`).join('')}</div><div class="roster-grid">${customPlayers.map((c,i)=>`<button class="roster-card" data-personpage="${i+6}"><img src="${characterSvg(c)}" alt="${safeHtml(c.name)} cuerpo completo"><strong>${safeHtml(c.name)}</strong><small>🪙 Personaje creado</small></button>`).join('')}</div><button class="option" data-goto="crear">✨ CREAR PERSONAJE · 🪙100</button><button class="option" data-goto="estilo">✂️ PERSONALIZAR MI JUGADOR</button></div>`;break;
 case 'estilo':out=`<div class="panel"><h3>PERSONALIZA TU PERSONAJE</h3><div class="row"><label>Nombre <input id="nick" maxlength="18" value="${nick.replace(/"/g,'&quot;')}"></label><label>Peinado <select id="hair">${['Nube plateada','Corona salvaje','Puntas de delantero','Negro azul desordenado','Trenzas del rey','Violeta rebelde','Azul oscuro','Fuego rojo','Negro corto','Verde EGO','Rubio salvaje','Blanco de hielo'].map(s=>`<option ${s===teamStyle?'selected':''}>${s}</option>`).join('')}</select></label></div><div class="hair-grid">${['Nube plateada','Corona salvaje','Puntas de delantero','Negro azul desordenado','Trenzas del rey','Violeta rebelde'].map((n,i)=>`<button class="hair-choice" type="button" data-hair="${n}"><img src="pelo-${i+1}.jpg" alt="Peinado ${n}"><span>${n}</span></button>`).join('')}</div><p>Elegí un peinado original inspirado en estilos de anime. Se guarda con tu personaje.</p><button class="option" data-goto="crear">✨ CREAR UN NUEVO PERSONAJE · 🪙100</button>${action('savestyle' ,'💾 GUARDAR ESTILO')}</div>`;break;
-case 'crear':out=`<div class="panel creator-panel"><h3>✨ CREAR FUTBOLISTA · 🪙 100 MONEDAS (AURAS PREMIUM +200)</h3><p>Elegí la ropa, el pelo, la piel, la forma de cara, la forma de los ojos, el número y el aura. Tu diseño se verá también en el partido. El aura se enciende solo con EGO.</p><div class="creator-wrap"><div class="create-grid"><label>Nombre <input id="createName" maxlength="18" value="Mi delantero"></label><label>Peinado <select id="createHair">${[...hairOptions,...Array.from({length:40},(_,i)=>`Estilo ${i+1}`)].map(n=>`<option>${safeHtml(n)}</option>`).join('')}</select></label><label>Forma de cara <select id="createFace"><option value="oval">Ovalada</option><option value="redonda">Redonda</option><option value="cuadrada">Cuadrada</option><option value="afilada">Afilada</option><option value="alargada">Alargada</option></select></label><label>Forma de ojos <select id="createEyeShape"><option value="anime">Anime clásicos</option><option value="redondos">Redondos</option><option value="finos">Finos</option><option value="rasgados">Rasgados</option><option value="caidos">Caídos</option><option value="grandes">Grandes</option><option value="estilo1">Ojos estilo 1</option><option value="estilo2">Ojos estilo 2</option><option value="estilo3">Ojos estilo 3</option><option value="estilo4">Ojos estilo 4</option><option value="estilo5">Ojos estilo 5</option><option value="estilo6">Ojos estilo 6</option><option value="estilo7">Ojos estilo 7</option><option value="estilo8">Ojos estilo 8</option><option value="estilo9">Ojos estilo 9</option><option value="estilo10">Ojos estilo 10</option></select></label><label>Boca <select id="createMouth"><option value="sonrisa">Sonrisa</option><option value="seria">Seria</option><option value="abierta">Abierta</option><option value="enojada">Enojada</option><option value="feliz">Feliz</option><option value="timida">Timida</option><option value="dientes">Dientes</option><option value="pico">Pico</option><option value="oval">Oval</option><option value="fina">Fina</option><option value="lado">Lado</option><option value="grito">Grito</option><option value="neutral">Neutral</option><option value="sorpresa">Sorpresa</option><option value="orgullo">Orgullo</option><option value="reto">Reto</option></select></label><label>Color de pelo <input type="color" id="createHairColor" value="#e6efff"></label><label>Color de piel <input type="color" id="createSkin" value="#d8a276"></label><label>Color de uniforme <input type="color" id="createUniform" value="#e63050"></label><label>Color de ojos <input type="color" id="createEyes" value="#278cff"></label><label>💪 Musculatura · <strong id="musculatureLabel">Normal</strong><input type="range" id="createMusculature" min="0" max="100" step="1" value="50" aria-label="Musculatura del futbolista"><small>Delgado ◀ ━━━━━ ▶ Musculoso</small></label><label>Número (1-99) <input type="number" id="createNumber" min="1" max="99" value="10"></label><label>Aura EGO <select id="createAura"><option>Ninguna</option><option>Fuego</option><option>Rayo</option><option>Sombra</option><option>Oro</option><option value="Aura 2">Aura 2 · GRATIS</option><option value="Aura 3">Aura 3 · GRATIS</option><option value="Aura 4">Aura 4 · GRATIS</option><option value="Aura 5">Aura 5 · GRATIS</option><option value="Aura 6">Aura 6 · GRATIS</option><option value="Aura 7">Aura 7 · GRATIS</option><option value="Aura 8">Aura 8 · GRATIS</option><option value="Aura 9">Aura 9 · GRATIS</option><option value="Aura 10">Aura 10 · PREMIUM</option><option value="Aura 11">Aura 11 · PREMIUM</option><option value="Aura 12">Aura 12 · PREMIUM</option><option value="Aura 13">Aura 13 · PREMIUM</option><option value="Aura 14">Aura 14 · PREMIUM</option><option value="Aura 15">Aura 15 · PREMIUM</option><option value="Aura 16">Aura 16 · PREMIUM</option><option value="Aura 17">Aura 17 · PREMIUM</option><option value="Aura 18">Aura 18 · PREMIUM</option><option value="Aura 19">Aura 19 · PREMIUM</option><option value="Aura 20">Aura 20 · PREMIUM</option><option value="Aura 21">Aura 21 · PREMIUM</option><option value="Aura 22">Aura 22 · PREMIUM</option><option value="Aura 23">Aura 23 · PREMIUM</option><option value="Aura 24">Aura 24 · PREMIUM</option><option value="Aura 25">Aura 25 · PREMIUM</option><option value="Aura 26">Aura 26 · PREMIUM</option><option value="Aura 27">Aura 27 · PREMIUM</option><option value="Aura 28">Aura 28 · PREMIUM</option><option value="Aura 29">Aura 29 · PREMIUM</option><option value="Aura 30">Aura 30 · PREMIUM</option><option value="Aura 31">Aura 31 · PREMIUM</option><option value="Aura 32">Aura 32 · PREMIUM</option><option value="Aura 33">Aura 33 · PREMIUM</option><option value="Aura 34">Aura 34 · PREMIUM</option><option value="Aura 35">Aura 35 · PREMIUM</option><option value="Aura 36">Aura 36 · PREMIUM</option><option value="Aura 37">Aura 37 · PREMIUM</option><option value="Aura 38">Aura 38 · PREMIUM</option><option value="Aura 39">Aura 39 · PREMIUM</option><option value="Aura 40">Aura 40 · PREMIUM</option></select></label><label>Color del aura <input type="color" id="createAuraColor" value="#40bfff"></label></div><div class="creator-character v13-preview-box">
+case 'crear':out=`<div class="panel creator-panel"><h3>✨ CREAR FUTBOLISTA · 🪙 100 MONEDAS (AURAS PREMIUM +200)</h3><p>Elegí entre 40 peinados, 40 auras EGO, 16 uniformes, 16 caras, 16 formas de cabeza, 16 ojos y 16 bocas. Tu diseño se verá también en el partido. El aura se enciende solo con EGO.</p><div class="creator-wrap"><div class="create-grid"><label>Nombre <input id="createName" maxlength="18" value="Mi delantero"></label><label>Peinado <select id="createHair">${[...hairOptions,...Array.from({length:28},(_,i)=>`Estilo ${i+1}`)].map(n=>`<option>${safeHtml(n)}</option>`).join('')}</select></label><label>Forma de cabeza <select id="createHeadShape"><option value="animeAngular">Anime angular ★</option><option value="natural">Natural</option>${Array.from({length:16},(_,i)=>`<option value="cabeza${i+1}">Cabeza ${i+1}</option>`).join('')}</select></label><label>Forma de cara <select id="createFace"><option value="oval">Ovalada</option><option value="redonda">Redonda</option><option value="cuadrada">Cuadrada</option><option value="afilada">Afilada</option><option value="alargada">Alargada</option><option value="cara1">Cara anime 1</option><option value="cara2">Cara anime 2</option><option value="cara3">Cara anime 3</option><option value="cara4">Cara anime 4</option><option value="cara5">Cara anime 5</option><option value="cara6">Cara anime 6</option><option value="cara7">Cara anime 7</option><option value="cara8">Cara anime 8</option><option value="cara9">Cara anime 9</option><option value="cara10">Cara anime 10</option><option value="cara11">Cara anime 11</option></select></label><label>Forma de ojos <select id="createEyeShape"><option value="anime">Anime clásicos</option><option value="redondos">Redondos</option><option value="finos">Finos</option><option value="rasgados">Rasgados</option><option value="caidos">Caídos</option><option value="grandes">Grandes</option><option value="estilo1">Ojos estilo 1</option><option value="estilo2">Ojos estilo 2</option><option value="estilo3">Ojos estilo 3</option><option value="estilo4">Ojos estilo 4</option><option value="estilo5">Ojos estilo 5</option><option value="estilo6">Ojos estilo 6</option><option value="estilo7">Ojos estilo 7</option><option value="estilo8">Ojos estilo 8</option><option value="estilo9">Ojos estilo 9</option><option value="estilo10">Ojos estilo 10</option></select></label><label>Boca <select id="createMouth"><option value="sonrisa">Sonrisa</option><option value="seria">Seria</option><option value="abierta">Abierta</option><option value="enojada">Enojada</option><option value="feliz">Feliz</option><option value="timida">Timida</option><option value="dientes">Dientes</option><option value="pico">Pico</option><option value="oval">Oval</option><option value="fina">Fina</option><option value="lado">Lado</option><option value="grito">Grito</option><option value="neutral">Neutral</option><option value="sorpresa">Sorpresa</option><option value="orgullo">Orgullo</option><option value="reto">Reto</option></select></label><label>👕 Traje de fútbol (16 modelos) <select id="createKitStyle">${Array.from({length:16},(_,i)=>`<option value="${i}" ${i===2?'selected':''}>${i===2?'Traje 3 · Blanco y celeste ★':'Traje '+(i+1)}</option>`).join('')}</select></label><div class="v38-kit-grid" id="v38KitGrid">${['#f13d55','#137cf0','#f4f6ff','#161a2c','#ffbe25','#26d3b2','#a24cf0','#fa6e2a','#c9ec38','#d72143','#ef5aaf','#1f5c94','#c4c8d6','#35433a','#ec4141','#063cae'].map((co,i)=>`<button type="button" class="v38-kit-pick" data-kitpick="${i}" title="Traje ${i+1}" style="--kit:${co};--stripe:${i%4===0?'white':'#192a47'}"><span class="v38-kit-shirt">${i+1}</span></button>`).join('')}</div><div class="v39-style-picker" id="v39StylePicker"><h4>🎨 CARAS, OJOS, BOCA Y 40 PEINADOS</h4><div class="v39-tabs"><button type="button" data-v39tab="headShape">🗣️ Cabezas</button><button type="button" data-v39tab="face">🙂 16 caras</button><button type="button" data-v39tab="eyeShape">👁️ 16 ojos</button><button type="button" data-v39tab="hair">💇 40 pelos</button><button type="button" data-v39tab="mouth">👄 16 bocas</button></div><div id="v45PickHeading" class="v45-pick-heading">PELO  ◀  40 OPCIONES  ▶</div><div id="v39Choices" class="v39-choices"></div></div><div class="v38-face-thumbs" id="v38FaceThumbs"><strong>Vista previa de pelo · ojos · cara · boca</strong><div id="v38HairFacePreview"></div></div><label>Color de pelo <input type="color" id="createHairColor" value="#f2f6ff"></label><label>Color de piel <input type="color" id="createSkin" value="#d8a276"></label><label>Color de uniforme <input type="color" id="createUniform" value="#edf8ff"></label><label>Color de ojos <input type="color" id="createEyes" value="#278cff"></label><label>💪 Musculatura · <strong id="musculatureLabel">Normal</strong><input type="range" id="createMusculature" min="0" max="100" step="1" value="50" aria-label="Musculatura del futbolista"><small>Delgado ◀ ━━━━━ ▶ Musculoso</small></label><label>💪 Pecho y hombros · <strong id="chestWidthLabel">Normal</strong><input type="range" id="createChestWidth" min="0" max="100" value="50"><small>Estrecho ◀ ━━━━━ ▶ Pecho ancho</small></label><label>💪 Anchura de brazos · <strong id="armWidthLabel">Normal</strong><input type="range" id="createArmWidth" min="0" max="100" value="50" aria-label="Anchura de brazos"><small>Finos ◀ ━━━━━ ▶ Anchos</small></label><label>💪 Anchura de hombros · <strong id="shoulderWidthLabel">Normal</strong><input type="range" id="createShoulderWidth" min="0" max="100" value="50" aria-label="Anchura de hombros"><small>Estrechos ◀ ━━━━━ ▶ Anchos</small></label><label>Número (1-99) <input type="number" id="createNumber" min="1" max="99" value="10"></label><label>Aura EGO <select id="createAura"><option value="Ninguna">Ninguna</option><option value="Fuego">Fuego · GRATIS</option><option value="Rayo">Rayo · GRATIS</option><option value="Sombra">Sombra · GRATIS</option><option value="Oro">Oro · GRATIS</option><option value="Aura 5">Aura 5 · GRATIS</option><option value="Aura 6">Aura 6 · GRATIS</option><option value="Aura 7">Aura 7 · GRATIS</option><option value="Aura 8">Aura 8 · GRATIS</option><option value="Aura 9">Aura 9 · PREMIUM</option><option value="Aura 10">Aura 10 · PREMIUM</option><option value="Aura 11">Aura 11 · PREMIUM</option><option value="Aura 12">Aura 12 · PREMIUM</option><option value="Aura 13">Aura 13 · PREMIUM</option><option value="Aura 14">Aura 14 · PREMIUM</option><option value="Aura 15">Aura 15 · PREMIUM</option><option value="Aura 16">Aura 16 · PREMIUM</option><option value="Aura 17">Aura 17 · PREMIUM</option><option value="Aura 18">Aura 18 · PREMIUM</option><option value="Aura 19">Aura 19 · PREMIUM</option><option value="Aura 20">Aura 20 · PREMIUM</option><option value="Aura 21">Aura 21 · PREMIUM</option><option value="Aura 22">Aura 22 · PREMIUM</option><option value="Aura 23">Aura 23 · PREMIUM</option><option value="Aura 24">Aura 24 · PREMIUM</option><option value="Aura 25">Aura 25 · PREMIUM</option><option value="Aura 26">Aura 26 · PREMIUM</option><option value="Aura 27">Aura 27 · PREMIUM</option><option value="Aura 28">Aura 28 · PREMIUM</option><option value="Aura 29">Aura 29 · PREMIUM</option><option value="Aura 30">Aura 30 · PREMIUM</option><option value="Aura 31">Aura 31 · PREMIUM</option><option value="Aura 32">Aura 32 · PREMIUM</option><option value="Aura 33">Aura 33 · PREMIUM</option><option value="Aura 34">Aura 34 · PREMIUM</option><option value="Aura 35">Aura 35 · PREMIUM</option><option value="Aura 36">Aura 36 · PREMIUM</option><option value="Aura 37">Aura 37 · PREMIUM</option><option value="Aura 38">Aura 38 · PREMIUM</option><option value="Aura 39">Aura 39 · PREMIUM</option><option value="Aura 40">Aura 40 · PREMIUM</option></select></label><label>Color del aura <input type="color" id="createAuraColor" value="#40bfff"></label></div><div class="creator-character v13-preview-box">
 <div class="v13-tabs"><button type="button" id="v13Foto">🎴 FOTO</button><button type="button" id="v13Juego" class="v13-on">⚽ JUEGO</button></div>
 <img id="v13AnimePortrait" src="personaje-1.jpg" alt="Retrato anime del futbolista" style="display:none">
 <img id="createPreview" alt="Jugador de cuerpo completo para el partido">
@@ -911,7 +1112,7 @@ case 'minijuegos':out=`<div class="tiles">${btn('Penales difíciles','penales','
 case 'torneos':out=`<div class="panel"><h3>COPA RED LOCK</h3><p>Torneo local de cuatro partidos contra la computadora. Cada victoria avanza de ronda.</p>${action('tournament','🏆 EMPEZAR TORNEO')}</div>`;break;
 case 'misiones':out=`<div class="panel"><h3>MISIONES</h3><p>⚽ Marcá tres goles · 🧤 Conseguí una atajada · 🎯 Completá un pase · 🔥 Ganá un partido difícil</p><p>Recompensas: monedas virtuales. Los logros se registran localmente durante las partidas.</p>${action('missions','▶️ IR AL CAMPO')}</div>`;break;
 case 'tienda':out=`<div class="panel"><h3>TIENDA DE MONEDAS DEL JUEGO</h3><p>Tenés 🪙 ${currency} monedas. No se usa dinero real.</p><div class="tiles">${['Botines eléctricos','Aura EGO roja','Celebración estelar','Uniforme azul','Guantes profesionales','Balón de oro'].map((n,i)=>`<button class="tile" data-buy="${i}">${n}<div>🪙 ${[200,350,450,250,300,500][i]}</div></button>`).join('')}</div></div>`;break;
-case 'config':out=`<div class="panel"><h3>CONTROLES PERSONALIZABLES</h3><p>Entrá a un partido, tocá «Mover controles» y arrastrá el joystick y los botones. La posición se guarda para todos los modos.</p><div class="row">${difficulty()}${action('resetcontrols','Restablecer controles')}${action('testcontrols','Probar controles')}</div><p>PC: WASD/flechas mover · J pasar · K tirar · Q cambiar · Shift correr · E EGO. DualSense: stick izquierdo, ✕ pasar, ◯ tirar, cuadrado cambiar, R2 correr, triángulo EGO.</p></div>`;break;
+case 'config':out=`<div class="panel"><h3>🎮 CONTROL PLAYSTATION 5 · DUALSENSE</h3><p>Conectá el DualSense al iPad, computadora o dispositivo desde su configuración Bluetooth o por cable compatible. Después presioná un botón del control para que el navegador lo detecte. La página no puede activar Bluetooth ni emparejar el control por sí sola.</p><p id="v52ControllerInfo" role="status" aria-live="polite">Buscando mando…</p><div id="v53TestPad" class="v53-pad-test"><strong>🧪 PRUEBA EN VIVO DEL CONTROL</strong><div id="v53PadButtons">Conectá el mando y presioná cualquier botón.</div><div class="v53-stick"><span id="v53StickDot"></span></div><small id="v53PadAxes">Stick: X 0.00 · Y 0.00</small></div><div class="tiles"><div class="tile">🕹 Stick izquierdo <small>Mover el futbolista</small></div><div class="tile">✕ Cruz <small>Pasar / confirmar</small></div><div class="tile">◯ Círculo <small>Disparar / volver en menús</small></div><div class="tile">△ Triángulo <small>Pase elevado</small></div><div class="tile">□ Cuadrado <small>Robar</small></div><div class="tile">L1 <small>Cambiar jugador</small></div><div class="tile">R1 <small>Activar EGO</small></div><div class="tile">L2 <small>Chilena</small></div><div class="tile">R2 <small>Correr</small></div><div class="tile">OPTIONS <small>Salir del partido</small></div></div><p>En menús: stick o cruceta para seleccionar, ✕ para aceptar y ◯ para regresar. En iPad, la compatibilidad depende del navegador y de la conexión Bluetooth.</p><div class="row">${difficulty()}${action('resetcontrols','Restablecer controles táctiles')}${action('testcontrols','⚽ PROBAR MANDO EN PARTIDO')}</div><p>También podés mover los controles táctiles dentro del partido con «Mover controles».</p></div>`;break;
 case 'noticias':out=`<div class="panel"><h3>📰 NOTICIAS DE RED LOCK ULTIMATE</h3><div class="news"><button type="button" data-article="v10"><b>Nueva versión: RED LOCK ULTIMATE V10</b><p>Pelota con rebotes, disparos y pases que viajan por el campo.</p></button></div><div class="news"><button type="button" data-article="controls"><b>Controles que podés mover</b><p>Personalizá el joystick y los botones en la pantalla de partido.</p></button></div><div class="news"><button type="button" data-article="online"><b>Multijugador en preparación</b><p>Se incluye un servidor separado de ejemplo para salas de hasta ocho personas. Debe instalarse y publicarse para usarse.</p></button></div></div>`;break;
 case 'evento':out=`<div class="panel"><h3>🔥 RIVALES ETERNOS</h3><p>Evento local: derrotá al equipo rival en dificultad Difícil para ganar monedas.</p>${action('event','JUGAR EVENTO')}</div>`;break;
 case 'pase':out=`<div class="panel"><h3>👑 PASE ULTIMATE</h3><p>Temporada de 50 niveles. Pase prémium: 10.000 monedas virtuales.</p>${action('pass','REVISAR PASE')}<p>Recompensas cosméticas e inventario local en desarrollo.</p></div>`;break;
@@ -921,9 +1122,9 @@ case 'dificil':startMatch('rapido','hard');return;case 'clasificado':startMatch(
 case 'penales':case 'regates':case 'tiros':case 'dominadas':case 'portero':startMatch(name);return;
 default:out=`<div class="panel"><p>Este modo todavía está en desarrollo.</p></div>`;
 }
-if(name==='estilo'){out=v10PreviewPanel()+out;}render(name.toUpperCase(),out);v10UpdatePreview();if($('difficulty'))$('difficulty').value=load('rldifficulty3','normal');if(name==='crear'){customPreview();$('pageBody').querySelectorAll('#createName,#createHair,#createFace,#createEyeShape,#createHairColor,#createSkin,#createUniform,#createEyes,#createNumber,#createAura,#createMusculature,#createMouth,#createAuraColor').forEach(el=>el.addEventListener('input',()=>{customPreview();v10UpdatePreview()}));}
+if(name==='estilo'){out=v10PreviewPanel()+out;}render(name.toUpperCase(),out);v10UpdatePreview();if($('difficulty'))$('difficulty').value=load('rldifficulty3','normal');if(name==='crear'){customPreview();$('pageBody').querySelectorAll('#createName,#createHair,#createHeadShape,#createFace,#createEyeShape,#createHairColor,#createSkin,#createUniform,#createEyes,#createNumber,#createAura,#createMusculature,#createMouth,#createAuraColor,#createKitStyle,#createChestWidth,#createArmWidth,#createShoulderWidth').forEach(el=>el.addEventListener('input',()=>{customPreview();v10UpdatePreview()}));}
 }
-$('pageBody').addEventListener('click',e=>{const el=e.target.closest('button');if(!el)return;if(el.dataset.v10View){const img=$('v10Portrait');if(img){img.src=el.dataset.v10View==='foto'?`personaje-${Math.min(6,playerIndex+1)}.jpg`:(selectedCustom()?characterSvg(selectedCustom()):`jugador-${Math.min(6,playerIndex+1)}.svg`)}document.querySelectorAll('[data-v10-view]').forEach(b=>b.setAttribute('aria-pressed',String(b===el)));return}if(el.dataset.article){const titles={v10:'NUEVA TEMPORADA',controls:'CONTROLES PERSONALIZABLES',online:'MULTIJUGADOR EN DESARROLLO'};const texts={v10:'Nuevas caras, ojos, personajes y animaciones de fútbol. Los partidos incluyen pases y pelota suelta.',controls:'Podés mover los controles desde un partido. Al conectar un mando compatible, se ocultan los botones táctiles.',online:'Todavía no hay partidas públicas en línea sincronizadas. Se necesita un servidor real.'};render(titles[el.dataset.article],`<div class="panel"><h3>${titles[el.dataset.article]}</h3><p>${texts[el.dataset.article]}</p><button class="option" data-goto="noticias">← Volver a noticias</button></div>`);return}if(el.dataset.goto){navigate(el.dataset.goto);return}if(el.dataset.hair){$('hair').value=el.dataset.hair;document.querySelectorAll('.hair-choice').forEach(x=>x.classList.toggle('chosen',x.dataset.hair===el.dataset.hair));return}if(el.dataset.personpage!==undefined){selectPlayer(+el.dataset.personpage);document.querySelectorAll('.roster-card').forEach(x=>x.classList.toggle('active',x===el));return}if(el.dataset.character!==undefined){nick=['Haru Kaze','Ren Akuma','Sora Hikari','Kyo Raiden','Yuki Frost','Leo Blaze','Nico Vortex','Dante Shadow','Akira Wild','Ryo Storm','Taro Titan','Eiji Swift','Kai Phantom','Noah Pulse','Rei Nova','Zen Atlas'][+el.dataset.character];save('rednick3',nick);el.textContent='✅ Seleccionado';return}if(el.dataset.buy!==undefined){const i=+el.dataset.buy,n=['Botines eléctricos','Aura EGO roja','Celebración estelar','Uniforme azul','Guantes profesionales','Balón de oro'][i],price=[200,350,450,250,300,500][i];if(owned.includes(n)){alert('Ya tenés este artículo');return}if(currency<price){alert('Te faltan monedas del juego');return}currency-=price;owned.push(n);save('redcoins3',currency);save('redowned3',owned);$('money').textContent=currency;refreshLobby();el.textContent='✅ Comprado';return}if(el.dataset.click){act(el.dataset.click)}});
+$('pageBody').addEventListener('click',e=>{const el=e.target.closest('button');if(!el)return;if(el.dataset.v10View){const img=$('v10Portrait');if(img){img.src=el.dataset.v10View==='foto'?`personaje-${Math.min(6,playerIndex+1)}.jpg`:(selectedCustom()?characterSvg(selectedCustom()):`jugador-${Math.min(6,playerIndex+1)}.svg`)}document.querySelectorAll('[data-v10-view]').forEach(b=>b.setAttribute('aria-pressed',String(b===el)));return}if(el.dataset.article){const titles={v10:'NUEVA TEMPORADA',controls:'CONTROLES PERSONALIZABLES',online:'MULTIJUGADOR EN DESARROLLO'};const texts={v10:'Nuevas caras, ojos, personajes y animaciones de fútbol. Los partidos incluyen pases y pelota suelta.',controls:'Podés mover los controles desde un partido. Al conectar un mando compatible, se ocultan los botones táctiles.',online:'Todavía no hay partidas públicas en línea sincronizadas. Se necesita un servidor real.'};render(titles[el.dataset.article],`<div class="panel"><h3>${titles[el.dataset.article]}</h3><p>${texts[el.dataset.article]}</p><button class="option" data-goto="noticias">← Volver a noticias</button></div>`);return}if(el.dataset.v39tab){v39Current=el.dataset.v39tab;v39Render();return}if(el.dataset.v39pick!==undefined){const id={headShape:'createHeadShape',face:'createFace',eyeShape:'createEyeShape',hair:'createHair',mouth:'createMouth'}[v39Current];const select=document.getElementById(id);if(select){select.value=v39Kinds[v39Current][+el.dataset.v39pick];customPreview();v39Render()}return}if(el.dataset.kitpick!==undefined){const sel=document.getElementById('createKitStyle');if(sel){sel.value=el.dataset.kitpick;customPreview();}return}if(el.dataset.goto){navigate(el.dataset.goto);return}if(el.dataset.hair){$('hair').value=el.dataset.hair;document.querySelectorAll('.hair-choice').forEach(x=>x.classList.toggle('chosen',x.dataset.hair===el.dataset.hair));return}if(el.dataset.personpage!==undefined){selectPlayer(+el.dataset.personpage);document.querySelectorAll('.roster-card').forEach(x=>x.classList.toggle('active',x===el));return}if(el.dataset.character!==undefined){nick=['Haru Kaze','Ren Akuma','Sora Hikari','Kyo Raiden','Yuki Frost','Leo Blaze','Nico Vortex','Dante Shadow','Akira Wild','Ryo Storm','Taro Titan','Eiji Swift','Kai Phantom','Noah Pulse','Rei Nova','Zen Atlas'][+el.dataset.character];save('rednick3',nick);el.textContent='✅ Seleccionado';return}if(el.dataset.buy!==undefined){const i=+el.dataset.buy,n=['Botines eléctricos','Aura EGO roja','Celebración estelar','Uniforme azul','Guantes profesionales','Balón de oro'][i],price=[200,350,450,250,300,500][i];if(owned.includes(n)){alert('Ya tenés este artículo');return}if(currency<price){alert('Te faltan monedas del juego');return}currency-=price;owned.push(n);save('redcoins3',currency);save('redowned3',owned);$('money').textContent=currency;refreshLobby();el.textContent='✅ Comprado';return}if(el.dataset.click){act(el.dataset.click)}});
 $('pageBody').addEventListener('change',e=>{if(e.target.id==='difficulty')save('rldifficulty3',e.target.value)});
 function act(k){switch(k){case 'story':startMatch('historia','hard');break;case 'training':case 'missions':case 'testcontrols':startMatch('entrenar');break;case 'tournament':startMatch('torneo','hard');break;case 'event':startMatch('evento','hard');break;case 'ranked':startMatch('ranked','hard');break;case 'createplayer':{const c=customPreview();const premiumAura=/^Aura (\d+)$/.exec(c.aura||'');const cost=premiumAura&&Number(premiumAura[1])>8?300:100;if(currency<cost){alert('Necesitás '+cost+' monedas para crear este futbolista.');break}c.name=c.name.trim().slice(0,18)||'Delantero';c.number=clamp(Number(c.number)||10,1,99);if(customPlayers.length>=30){alert('Alcanzaste el máximo de 30 personajes creados.');break}currency-=cost;customPlayers.push(c);save('rlcustom8',customPlayers);save('redcoins3',currency);$('money').textContent=currency;selectPlayer(5+customPlayers.length);alert('¡Futbolista creado! Ya podés jugar con él.');navigate('personajes');break}case 'savestyle':nick=$('nick').value.slice(0,18)||'Jugador';teamStyle=$('hair').value;save('rednick3',nick);save('redstyle3',teamStyle);alert('¡Estilo guardado!');break;case 'resetcontrols':ctrlPositions={};save('redcontrols3',{});alert('Controles restablecidos');break;case 'connect':connectOnline();break;case 'pass':alert('El pase todavía no se puede comprar; no se han gastado monedas');break;}}
 document.addEventListener('keydown',e=>{if(match&&e.key.toLowerCase()==='f')kickTarget('steal')});$('coinOpen').onclick=()=>navigate('tienda');$('back').onclick=()=>{if(match){stopMatch()}else home()};$('exitMatch').onclick=stopMatch;
@@ -1026,11 +1227,47 @@ if(s.mode==='portero'&&Math.random()<dt*.12){const shooter=s.players.find(q=>q.t
 $('scoreHud').textContent=`RED ${s.goals[0]} : ${s.goals[1]} AZUL • ${Math.floor(s.clock/60).toString().padStart(2,'0')}:${Math.floor(s.clock%60).toString().padStart(2,'0')}${s.mode==='regates'||s.mode==='dominadas'?' · Puntos '+s.score:''}`;
 }
 
+// V51: el avatar del partido usa exactamente el SVG del personalizador.
+const matchAvatarImages=new Map();
+function matchAvatarImage(design,kicking){
+ const key=JSON.stringify(design)+'|'+(kicking?'patada':'quieto');
+ if(!matchAvatarImages.has(key)){
+  const img=new Image();
+  matchAvatarImages.set(key,img);
+  img.src=characterSvg(design,kicking);
+ }
+ return matchAvatarImages.get(key);
+}
+function drawMatchCustomAvatar(p,design,me,ego,index){
+ const kicking=p.anim==='kick'&&p.animTime>0;
+ const sprite=matchAvatarImage(design,kicking);
+ const bodyScale=.91+Math.min(100,Math.max(0,Number(design.musculature??50)))*.002;
+ ctx.save();ctx.translate(p.x,p.y);
+ if(me){ctx.strokeStyle='#ffe96d';ctx.lineWidth=2;ctx.beginPath();ctx.ellipse(0,13,20,7,0,0,Math.PI*2);ctx.stroke();}
+ if(ego&&design.aura&&design.aura!=='Ninguna'){
+  ctx.strokeStyle=design.auraColor||'#64d8ff';ctx.globalAlpha=.75;ctx.lineWidth=2.5;
+  ctx.beginPath();ctx.ellipse(0,-21,25,44,0,0,Math.PI*2);ctx.stroke();ctx.globalAlpha=1;
+ }
+ ctx.scale(bodyScale,1);
+ const moving=Math.min(1,Math.hypot(p.vx,p.vy)/180);
+ ctx.rotate(Math.sin(performance.now()*.014+index)*.05*moving);
+ if(sprite.complete&&sprite.naturalWidth){
+  // SVG 212 x 340: misma cara, pelo, uniforme, brazos, pecho y piernas.
+  ctx.drawImage(sprite,-27,-62,54,83);
+ }else{
+  // Mientras carga el sprite, muestra una silueta en vez de desaparecer.
+  ctx.fillStyle=design.uniform||'#eaf7ff';ctx.fillRect(-11,-26,22,26);
+  ctx.fillStyle=design.skin||'#d8a276';ctx.beginPath();ctx.arc(0,-34,11,0,Math.PI*2);ctx.fill();
+ }
+ ctx.restore();
+}
 function drawFootballer(p,me,ego,index){
  const custom=p.isUserAvatar?p.avatarDesign:null;
+ if(custom){drawMatchCustomAvatar(p,custom,me,ego,index);return;}
+
  const bodyWidth=custom?(.78+Math.max(0,Math.min(100,Number(custom.musculature??50)))*.005):1;
  const face=custom?.skin||['#e0aa87','#b88568','#f0bd93','#a7654c'][index%4];
- const shirt=custom?.uniform||(p.team===0?['#ef3c59','#e14837','#e33f74'][index%3]:['#2287ef','#1765d0','#4b97fa'][index%3]);
+ const shirt=(custom&&Number(custom.kitStyle)===2?'#ecf8ff':custom?.uniform)||(p.team===0?['#ef3c59','#e14837','#e33f74'][index%3]:['#2287ef','#1765d0','#4b97fa'][index%3]);
  const hair=custom?.hairColor||['#ebeffc','#141a30','#f2bc52','#522f77','#233e5b','#bf2939'][index%6];
  const eyes=custom?.eyes||'#273143';const num=custom?.number||p.num;
  const moving=Math.min(1,Math.hypot(p.vx,p.vy)/180),stride=Math.sin(performance.now()*.012+index)*4*moving;
@@ -1038,7 +1275,7 @@ function drawFootballer(p,me,ego,index){
  ctx.save();ctx.translate(p.x,p.y);ctx.scale(bodyWidth,1);ctx.rotate(bicyclePose?(Math.PI*1.6+(1-p.animTime/.82)*Math.PI*1.4):(Math.atan2(p.vy,p.vx)*.10)+(savePose?.65:stealPose?-.27:0)+(kickPose?Math.sin((1-p.animTime/.62)*Math.PI)*-.13:0)); // Human figures instead of colored disks
  if(me){ctx.strokeStyle='#ffeb6c';ctx.lineWidth=3;ctx.beginPath();ctx.ellipse(0,11,21,9,0,0,7);ctx.stroke()}
  if(me&&ego&&custom?.aura&&custom.aura!=='Ninguna'){
- const auraColor=({Fuego:'#ff5c2b',Rayo:'#4cdaff',Sombra:'#b986ff',Oro:'#ffdb47'})[custom.aura]||'#fff';
+ const auraColor=custom.auraColor||({Fuego:'#ff5c2b',Rayo:'#4cdaff',Sombra:'#b986ff',Oro:'#ffdb47'})[custom.aura]||'#fff';
  ctx.strokeStyle=auraColor;ctx.globalAlpha=.8;ctx.lineWidth=3;ctx.beginPath();ctx.ellipse(0,-7,26+Math.sin(performance.now()*.01)*3,38,0,0,7);ctx.stroke();ctx.globalAlpha=1;
  }else if(me&&ego){ctx.strokeStyle='#ffdc42';ctx.lineWidth=3;ctx.beginPath();ctx.ellipse(0,-7,25,36,0,0,7);ctx.stroke()}
  // Rodillas articuladas y pierna que se recoge, acelera y se extiende al patear.
@@ -1051,41 +1288,49 @@ function drawFootballer(p,me,ego,index){
  const footR={x:8+stride+swing,y:kickPose?28-Math.max(0,swing)*.79:bicyclePose?-8:28};
  // Muslos desnudos que salen por debajo de la pantaloneta.
  ctx.strokeStyle=face;ctx.lineWidth=9;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(hipL.x,hipL.y);ctx.lineTo(kneeL.x,kneeL.y);ctx.moveTo(hipR.x,hipR.y);ctx.lineTo(kneeR.x,kneeR.y);ctx.stroke();
- ctx.strokeStyle='#e3eefd';ctx.lineWidth=7;ctx.beginPath();ctx.moveTo(kneeL.x,kneeL.y);ctx.lineTo(footL.x,footL.y);ctx.moveTo(kneeR.x,kneeR.y);ctx.lineTo(footR.x,footR.y);ctx.stroke();
+ ctx.strokeStyle=custom&&Number(custom.kitStyle)===2?'#181f43':'#e3eefd';ctx.lineWidth=7;ctx.beginPath();ctx.moveTo(kneeL.x,kneeL.y);ctx.lineTo(footL.x,footL.y);ctx.moveTo(kneeR.x,kneeR.y);ctx.lineTo(footR.x,footR.y);ctx.stroke();
  ctx.fillStyle='#f6faff';ctx.strokeStyle='#101d36';ctx.lineWidth=1.3;
  ctx.fillRect(footL.x-6,footL.y-2,13,5);ctx.strokeRect(footL.x-6,footL.y-2,13,5);
  ctx.fillRect(footR.x-6,footR.y-2,13,5);ctx.strokeRect(footR.x-6,footR.y-2,13,5);
  // Pantaloneta suelta, con dos perneras y borde del uniforme.
- ctx.fillStyle='#101a31';ctx.strokeStyle=shirt;ctx.lineWidth=1.6;
+ ctx.fillStyle=custom&&Number(custom.kitStyle)===2?'#bddbf0':'#101a31';ctx.strokeStyle=shirt;ctx.lineWidth=1.6;
  ctx.beginPath();ctx.moveTo(-13,0);ctx.lineTo(13,0);ctx.lineTo(14,12);ctx.lineTo(2,12);ctx.lineTo(0,7);ctx.lineTo(-2,12);ctx.lineTo(-14,12);ctx.closePath();ctx.fill();ctx.stroke();
  ctx.strokeStyle='#f2f7ff';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(-13,11);ctx.lineTo(-3,11);ctx.moveTo(3,11);ctx.lineTo(14,11);ctx.stroke();
  // Estela de movimiento al disparar.
  if(kickPose&&t>.26&&t<.89){ctx.strokeStyle='#76deff';ctx.globalAlpha=.8;ctx.lineWidth=2.6;ctx.beginPath();ctx.arc(footR.x-6,footR.y-4,12,Math.PI*.65,Math.PI*1.58);ctx.stroke();ctx.beginPath();ctx.moveTo(footR.x-24,footR.y+8);ctx.lineTo(footR.x-7,footR.y+2);ctx.moveTo(footR.x-21,footR.y-2);ctx.lineTo(footR.x-8,footR.y-5);ctx.stroke();ctx.globalAlpha=1;}
  // Brazos con mangas: oscilación más rápida al correr y movimientos de acción.
  const armSwing=Math.sin(performance.now()*.031+index*1.7)*12*moving;
- const leftX=-20-(savePose?22:0)+armSwing;
- const rightX=20+(savePose?22:0)-armSwing;
+ const armW=custom?Math.max(0,Math.min(100,Number(custom.armWidth??50))):50;
+ const shoulderW=custom?Math.max(0,Math.min(100,Number(custom.shoulderWidth??50))):50;
+ const armThickness=0.7+armW*.006;
+ const armOffset=(shoulderW-50)*.085;
+ const leftX=-20-armOffset-(savePose?22:0)+armSwing;
+ const rightX=20+armOffset+(savePose?22:0)-armSwing;
  const leftY=-1-(savePose?23:0)+(kickPose?-8:0);
  const rightY=-1-(savePose?23:0)+(stealPose?-12:0);
  ctx.lineCap='round';
  // Manga superior de uniforme (cubre hombro y parte del brazo).
- ctx.strokeStyle='#07152b';ctx.lineWidth=11;ctx.beginPath();
- ctx.moveTo(-11,-17);ctx.lineTo(-16,-9);
- ctx.moveTo(11,-17);ctx.lineTo(16,-9);ctx.stroke();
- ctx.strokeStyle=shirt;ctx.lineWidth=8;ctx.beginPath();
- ctx.moveTo(-11,-17);ctx.lineTo(-16,-9);
- ctx.moveTo(11,-17);ctx.lineTo(16,-9);ctx.stroke();
+ ctx.strokeStyle='#07152b';ctx.lineWidth=11*armThickness;ctx.beginPath();
+ ctx.moveTo(-11,-17);ctx.lineTo(-16-armOffset,-9);
+ ctx.moveTo(11,-17);ctx.lineTo(16+armOffset,-9);ctx.stroke();
+ ctx.strokeStyle=custom&&Number(custom.kitStyle)===2?'#141d43':shirt;ctx.lineWidth=8*armThickness;ctx.beginPath();
+ ctx.moveTo(-11,-17);ctx.lineTo(-16-armOffset,-9);
+ ctx.moveTo(11,-17);ctx.lineTo(16+armOffset,-9);ctx.stroke();
  // Antebrazos visibles después de las mangas.
- ctx.strokeStyle=face;ctx.lineWidth=5.5;ctx.beginPath();
- ctx.moveTo(-16,-9);ctx.lineTo(leftX,leftY);
- ctx.moveTo(16,-9);ctx.lineTo(rightX,rightY);ctx.stroke();
+ ctx.strokeStyle=custom&&Number(custom.kitStyle)===2?'#171e43':face;ctx.lineWidth=5.5*armThickness;ctx.beginPath();
+ ctx.moveTo(-16-armOffset,-9);ctx.lineTo(leftX,leftY);
+ ctx.moveTo(16+armOffset,-9);ctx.lineTo(rightX,rightY);ctx.stroke();
  ctx.fillStyle=face;ctx.beginPath();ctx.arc(leftX,leftY,3.3,0,Math.PI*2);ctx.arc(rightX,rightY,3.3,0,Math.PI*2);ctx.fill();
- ctx.fillStyle=shirt;ctx.beginPath();ctx.moveTo(-12,-20);ctx.lineTo(12,-20);ctx.lineTo(14,5);ctx.lineTo(-14,5);ctx.closePath();ctx.fill();
+ ctx.save();ctx.translate(0,-8);ctx.scale(custom?((.84+Math.max(0,Math.min(100,Number(custom.chestWidth??50)))*.0072)*(.85+Math.max(0,Math.min(100,Number(custom.shoulderWidth??50)))*.003)):1,1);ctx.translate(0,8);
+ ctx.fillStyle=custom?['#f13d55','#137cf0','#f4f6ff','#161a2c','#ffbe25','#26d3b2','#a24cf0','#fa6e2a','#c9ec38','#d72143','#ef5aaf','#1f5c94','#c4c8d6','#35433a','#ec4141','#063cae'][Number(custom.kitStyle||0)%16]:shirt;ctx.beginPath();ctx.moveTo(-12,-20);ctx.lineTo(12,-20);ctx.lineTo(14,5);ctx.lineTo(-14,5);ctx.closePath();ctx.fill();
+ if(custom){ctx.strokeStyle='#fff';ctx.lineWidth=2;ctx.beginPath();if(+custom.kitStyle%2){ctx.moveTo(-12,-8);ctx.lineTo(12,-8);}else{ctx.moveTo(-5,-18);ctx.lineTo(-5,4);ctx.moveTo(5,-18);ctx.lineTo(5,4)}ctx.stroke()}ctx.restore();
  ctx.fillStyle='#fff';ctx.font='bold 12px Arial';ctx.textAlign='center';ctx.fillText(p.goalie?'G':String(num),0,-1);
- ctx.fillStyle=face;ctx.beginPath();const faceType=custom?.face||['oval','cuadrada','afilada','redonda'][index%4];const fSize={oval:[12,13],redonda:[13.4,12],cuadrada:[13,12.5],afilada:[10,14],alargada:[10,15]}[faceType]||[12,13];if(faceType==='cuadrada'){ctx.roundRect(-fSize[0],-28-fSize[1],fSize[0]*2,fSize[1]*2,3)}else{ctx.ellipse(0,-28,fSize[0],fSize[1],0,0,Math.PI*2)}ctx.fill();
- const eyeStyle=custom?.eyeShape||'anime';const eyeDims={anime:[2.8,2.1],redondos:[3.2,3.3],finos:[3.5,1.2],rasgados:[3.5,1.5],caidos:[3.3,1.7],grandes:[3.7,4.0]}[eyeStyle]||[2.8,2.1];
+ ctx.fillStyle=face;ctx.beginPath();const headNo=Number((custom?.headShape||'').match(/cabeza(\d+)/)?.[1]||0);const faceNo=Number((custom?.face||'').match(/cara(\d+)/)?.[1]||0);const faceType=custom?.headShape==='animeAngular'?'afilada':(headNo?['afilada','cuadrada','oval','alargada','redonda'][headNo%5]:(custom?.face||['oval','cuadrada','afilada','redonda'][index%4]));const fSize={oval:[12,13],redonda:[13.4,12],cuadrada:[13,12.5],afilada:[10,14],alargada:[10,15]}[faceType]||[12,13];fSize[0]+=headNo?(headNo%4-2)*.7:faceNo?(faceNo%5-2)*.6:0;fSize[1]+=headNo?(headNo%5-2)*.8:faceNo?(faceNo%4-2)*.7:0;if(custom?.headShape==='animeAngular'){ctx.moveTo(-12,-38);ctx.lineTo(12,-38);ctx.lineTo(11,-23);ctx.lineTo(0,-15);ctx.lineTo(-11,-23);ctx.closePath()}else if(faceType==='cuadrada'){ctx.roundRect(-fSize[0],-28-fSize[1],fSize[0]*2,fSize[1]*2,3)}else{ctx.ellipse(0,-28,fSize[0],fSize[1],0,0,Math.PI*2)}ctx.fill();
+ const eyeStyle=custom?.eyeShape||'anime';const eyeNo=Number((eyeStyle||'').match(/estilo(\d+)/)?.[1]||0);const eyeDims={anime:[2.8,2.1],redondos:[3.2,3.3],finos:[3.5,1.2],rasgados:[3.5,1.5],caidos:[3.3,1.7],grandes:[3.7,4.0]}[eyeStyle]||[2.8,2.1];
  for(const x of [-4.7,4.7]){ctx.save();ctx.translate(x,-27.4);if(eyeStyle==='rasgados')ctx.rotate(x<0?-.18:.18);if(eyeStyle==='caidos')ctx.rotate(x<0?.18:-.18);ctx.fillStyle='#f7f6f7';ctx.beginPath();ctx.ellipse(0,0,eyeDims[0],eyeDims[1],0,0,Math.PI*2);ctx.fill();ctx.fillStyle=eyes;ctx.beginPath();ctx.ellipse(0,.25,Math.max(.8,eyeDims[0]*.45),Math.max(.8,eyeDims[1]*.8),0,0,Math.PI*2);ctx.fill();ctx.restore()}
+ if(custom){ctx.strokeStyle='#682c36';ctx.lineWidth=1.4;ctx.beginPath();const mm=custom.mouth||'sonrisa';if(['abierta','grito','sorpresa','oval'].includes(mm)){ctx.ellipse(0,-20,3,3,0,0,Math.PI*2)}else if(['seria','neutral','fina'].includes(mm)){ctx.moveTo(-3,-20);ctx.lineTo(3,-20)}else if(['enojada','reto'].includes(mm)){ctx.moveTo(-4,-19);ctx.lineTo(0,-21);ctx.lineTo(4,-19)}else if(mm==='dientes'){ctx.rect(-4,-23,8,4)}else{ctx.arc(0,-22,4,.15,Math.PI-.15)}ctx.stroke()}
  ctx.fillStyle=hair;ctx.beginPath();ctx.moveTo(-12,-29);ctx.lineTo(-12,-40);ctx.lineTo(-5,-38);ctx.lineTo(-1,-45);ctx.lineTo(4,-38);ctx.lineTo(11,-43);ctx.lineTo(12,-29);ctx.lineTo(6,-35);ctx.lineTo(0,-32);ctx.lineTo(-6,-36);ctx.closePath();ctx.fill();
+ if(custom){const hi=Number((custom.hair||'').match(/Estilo (\d+)/)?.[1]||0);const hairType=custom.hair||'';if(hi||hairType.includes('Corona')||hairType.includes('Puntas')){ctx.fillStyle=hair;ctx.beginPath();const style=hi||7;ctx.moveTo(-14,-37);for(let j=0;j<8;j++){const x=-15+j*4.4, lift=style%4===0?5+((j+style)%3)*2:style%4===1?9+((j*style)%5)*2:style%4===2?15+((j+style)%4)*2:6+((j*3+style)%6)*2;ctx.lineTo(x,-39-lift);}ctx.lineTo(15,-34);ctx.lineTo(11,-29);ctx.lineTo(2,-36);ctx.lineTo(-9,-29);ctx.closePath();ctx.fill()}else if(hairType.includes('corto')){ctx.fillStyle=face;ctx.fillRect(-10,-37,20,5)}}
  if(bicyclePose){ctx.strokeStyle='#f8e9ad';ctx.lineWidth=2;ctx.beginPath();ctx.arc(0,-10,26,0,Math.PI*1.1);ctx.stroke()}if(custom?.hair?.includes('Trenzas')){ctx.strokeStyle=hair;ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(-12,-34);ctx.lineTo(-17,-22);ctx.moveTo(12,-34);ctx.lineTo(17,-21);ctx.stroke()}
  ctx.restore();
 }
@@ -1106,7 +1351,7 @@ let padNavAt=0;
 function pollGamepad(){
  const pads=navigator.getGamepads?.()||[],p=Array.from(pads).find(x=>x&&x.connected);
  document.body.classList.toggle('using-gamepad',!!p);
- const padStatus=document.getElementById('v15PadStatus');if(padStatus)padStatus.textContent=p?'🎮 CONTROL CONECTADO':'🎮 CONTROL: SIN CONECTAR';
+ const padStatus=document.getElementById('v15PadStatus');if(padStatus)padStatus.textContent=p?'🎮 PS5 / GAMEPAD CONECTADO · ✕ Pase · ○ Tiro · △ Globo · R2 Correr':'🎮 CONTROL: SIN CONECTAR';
  if(p){
   const b=i=>!!p.buttons[i]?.pressed, prev=i=>!!gamepadWas[i], just=i=>b(i)&&!prev(i);
   if(match){
@@ -1133,7 +1378,7 @@ function pollGamepad(){
    if(just(1)||just(9))home();
   }
   gamepadWas=p.buttons.map(v=>!!v.pressed);
- }else{gamepadWas=[];sprintTouch=false}
+ }else{gamepadWas=[];sprintTouch=false;if(match){joy.x=0;joy.y=0}}
  requestAnimationFrame(pollGamepad);
 }
 requestAnimationFrame(pollGamepad);
@@ -1186,4 +1431,53 @@ home();
  window.addEventListener('gamepaddisconnected',()=>{if(![...(navigator.getGamepads?.()||[])].some(Boolean))document.body.classList.remove('using-gamepad')});
 })();
 </script>
-<div id="v15PadStatus" role="status" aria-live="polite">🎮 CONTROL: SIN CONECTAR</div></body></html>
+<div id="v15PadStatus" role="status" aria-live="polite">🎮 CONTROL: SIN CONECTAR</div>
+<script id="v47-real-customizer-behavior">
+(function(){
+const items=[['Cabeza','headShape','👤'],['Pelo','hair','✂️'],['Ojos','eyeShape','👁️'],['Boca','mouth','🙂'],['Cara','face','😀'],['Forma de cabeza','headShape','◈'],['Ropa','kit','👕'],['Aura','aura','🔥'],['Musculatura','muscle','💪']];
+function ensure(){
+const wrap=document.querySelector('body.v18-creator #page .creator-wrap');if(!wrap||wrap.querySelector('.v47-sidebar'))return;
+const bar=document.createElement('nav');bar.className='v47-sidebar';bar.setAttribute('aria-label','Opciones de personalización');
+bar.innerHTML='<h4>⚙ PERSONALIZAR JUGADOR</h4>'+items.map(([name,key,icon])=>'<button type="button" data-v47category="'+key+'" aria-pressed="'+(key==='hair'?'true':'false')+'"><span class="v47-icon">'+icon+'</span><span>'+name+'</span></button>').join('');
+wrap.insertBefore(bar,wrap.firstChild);const controls=wrap.querySelector('.create-grid');if(controls)controls.dataset.v49mode='hair';
+}
+function highlight(key){document.querySelectorAll('.v47-sidebar [data-v47category]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.v47category===key)));}
+document.addEventListener('click',function(ev){const btn=ev.target.closest('[data-v47category]');if(!btn)return;const key=btn.dataset.v47category;highlight(key);const controls=document.querySelector('body.v18-creator #page .create-grid');if(controls){controls.dataset.v49mode=key;controls.scrollTop=0;}
+if(['headShape','hair','eyeShape','mouth','face'].includes(key)){if(typeof v39Current!=='undefined'&&typeof v39Render==='function'){v39Current=key;v39Render();}document.getElementById('v39StylePicker')?.scrollIntoView({block:'nearest'});}
+else {const id={kit:'createKitStyle',aura:'createAura',muscle:'createMusculature'}[key];document.getElementById(id)?.scrollIntoView({block:'center'});}
+});
+new MutationObserver(()=>{if(document.body.classList.contains('v18-creator'))ensure();}).observe(document.getElementById('page')||document.body,{childList:true,subtree:true});
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ensure);else ensure();
+})();
+</script>
+<script id="v52-dualsense-status">
+(function(){
+ function update(){
+  const el=document.getElementById('v52ControllerInfo');
+  if(!el)return;
+  let pads=[];try{pads=Array.from(navigator.getGamepads?.()||[]).filter(Boolean)}catch(e){}
+  const pad=pads.find(p=>p.connected);
+  el.textContent=pad?'✅ Mando detectado: '+pad.id+' · Presioná «PROBAR MANDO EN PARTIDO».':'⚪ Mando sin detectar. Conectalo en Bluetooth del dispositivo y presioná ✕. La detección requiere un navegador compatible.';
+ }
+ window.addEventListener('gamepadconnected',update);
+ window.addEventListener('gamepaddisconnected',update);
+ document.addEventListener('click',()=>setTimeout(update,60));
+ setInterval(update,1200);
+ let lastTester=0;
+ const names=['✕ Pase','○ Tiro','□ Robar','△ Pase alto','L1 Cambiar','R1 EGO','L2 Chilena','R2 Correr','Share','OPTIONS','L3','R3','↑','↓','←','→'];
+ function testPad(now){
+  requestAnimationFrame(testPad);
+  if(now-lastTester<80)return;lastTester=now;
+  const display=document.getElementById('v53PadButtons');if(!display)return;
+  let pad=null;try{pad=Array.from(navigator.getGamepads?.()||[]).find(p=>p&&p.connected)}catch(e){}
+  const dot=document.getElementById('v53StickDot'),axes=document.getElementById('v53PadAxes');
+  if(!pad){display.textContent='🎮 Sin conexión: emparejá el mando desde Bluetooth y presioná ✕.';if(dot){dot.style.left='33px';dot.style.top='33px'}if(axes)axes.textContent='Stick: X 0.00 · Y 0.00';return;}
+  const x=Math.max(-1,Math.min(1,pad.axes?.[0]||0)),y=Math.max(-1,Math.min(1,pad.axes?.[1]||0));
+  if(dot){dot.style.left=(33+x*29)+'px';dot.style.top=(33+y*29)+'px'}
+  if(axes)axes.textContent='Stick: X '+x.toFixed(2)+' · Y '+y.toFixed(2);
+  const pressed=pad.buttons.map((b,i)=>b.pressed?(names[i]||('Botón '+i)):null).filter(Boolean);
+  display.textContent=pressed.length?'✅ Detectado: '+pressed.join(' · '):'✅ Mando listo. Mové el stick o pulsá un botón para probarlo.';
+ }
+ requestAnimationFrame(testPad);
+})();
+</script></body></html>

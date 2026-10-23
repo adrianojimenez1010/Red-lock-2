@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs><radialGradient id="sky"><stop stop-color="#17396a"/><stop offset=".52" stop-color="#080e30"/><stop offset="1" stop-color="#020515"/></radialGradient><linearGradient id="floor" x2="0" y2="1"><stop stop-color="#122755"/><stop offset="1" stop-color="#02081b"/></linearGradient><linearGradient id="brand"><stop stop-color="#f52063"/><stop offset=".46" stop-color="#ff3d5e"/><stop offset=".51" stop-color="#77e3ff"/><stop offset="1" stop-color="#1465ff"/></linearGradient><pattern id="seats" width="23" height="19" patternUnits="userSpaceOnUse"><circle cx="5" cy="6" r="2.7" fill="#0b5cbd" opacity=".45"/><circle cx="16" cy="12" r="2.2" fill="#a20f54" opacity=".5"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="12"/></filter><filter id="glow2"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<path d="M0 170Q800 -110 1600 170L1600 540Q800 230 0 540Z" fill="#09132d" stroke="#275bb6" stroke-width="12"/>
+<path d="M0 200Q800 -54 1600 200L1600 545Q800 320 0 545Z" fill="url(#seats)"/>
+<g stroke="#3262aa" fill="none" opacity=".45" stroke-width="5"><path d="M0 175Q800 -115 1600 175"/><path d="M0 215Q800 -48 1600 215"/><path d="M0 345Q800 90 1600 345"/><path d="M0 475Q800 250 1600 475"/></g>
+<path d="M0 500Q800 390 1600 500" stroke="#f42365" stroke-width="44" opacity=".28" filter="url(#glow)" fill="none"/>
+<path d="M0 500Q800 390 1600 500" stroke="#166eff" stroke-width="12" opacity=".9" fill="none"/>
+<g opacity=".9"><path d="M0 100L440 200" stroke="#197dff" stroke-width="9"/><path d="M1160 200L1600 100" stroke="#f62666" stroke-width="9"/></g>
+<g fill="#7bc4ff"><rect x="170" y="118" width="45" height="13" rx="4"/><rect x="290" y="96" width="45" height="13" rx="4"/><rect x="420" y="80" width="45" height="13" rx="4"/></g>
+<g fill="#ff376d"><rect x="1135" y="80" width="45" height="13" rx="4"/><rect x="1260" y="96" width="45" height="13" rx="4"/><rect x="1380" y="118" width="45" height="13" rx="4"/></g>
+<g transform="translate(800,345) skewX(-8)" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-weight="1000"><text x="0" y="0" font-size="210" letter-spacing="-12" fill="#346bff" opacity=".35" filter="url(#glow)">RED LOCK</text><text x="0" y="0" font-size="210" letter-spacing="-12" fill="url(#brand)" opacity=".72">RED LOCK</text><text x="0" y="78" font-size="84" font-style="italic" fill="#fb2e75" opacity=".8">ULTIMATE</text></g>
+<path d="M0 650Q800 470 1600 650L1600 900H0Z" fill="url(#floor)"/>
+<ellipse cx="800" cy="800" rx="760" ry="150" fill="none" stroke="#1076ff" stroke-width="14" opacity=".5" filter="url(#glow2)"/>
+<ellipse cx="800" cy="800" rx="760" ry="150" fill="none" stroke="#2c90ff" stroke-width="5" opacity=".95"/>
+<ellipse cx="800" cy="800" rx="470" ry="90" fill="none" stroke="#6a58ff" stroke-width="5" opacity=".55"/>
+<ellipse cx="800" cy="800" rx="250" ry="55" fill="none" stroke="#0c67b6" stroke-width="3" opacity=".75"/>
+<path d="M0 900L600 650M1600 900L1000 650M250 900L690 650M1350 900L910 650" stroke="#1464ca" opacity=".32" stroke-width="4"/>
+<path d="M0 565L1600 565" stroke="#ef2874" stroke-width="8" opacity=".5" filter="url(#glow)"/>
+<g opacity=".76" transform="translate(285 320) skewX(-9)"><text x="0" y="0" fill="#f52b68" stroke="#071327" stroke-width="7" paint-order="stroke" font-size="190" font-style="italic" font-weight="1000" font-family="Arial,sans-serif" letter-spacing="-16">RED</text><text x="590" y="0" fill="#46a3ff" stroke="#071327" stroke-width="7" paint-order="stroke" font-size="190" font-style="italic" font-weight="1000" font-family="Arial,sans-serif" letter-spacing="-16">LOCK</text><text x="510" y="98" fill="#fa2e77" font-family="Arial,sans-serif" font-size="88" font-style="italic" font-weight="900">ULTIMATE</text></g></svg>
